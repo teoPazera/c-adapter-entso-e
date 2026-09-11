@@ -1,0 +1,210 @@
+{
+  "price_hourly": {
+    "ok": true,
+    "day": "2025-09-15",
+    "n_points": 25,
+    "inferred_resolution": "0 days 01:00:00",
+    "index_start": "2025-09-15 00:00:00+02:00",
+    "index_end": "2025-09-16 00:00:00+02:00",
+    "first_3": {
+      "2025-09-15 00:00:00+02:00": 16.08,
+      "2025-09-15 01:00:00+02:00": 8.22,
+      "2025-09-15 02:00:00+02:00": 4.61
+    },
+    "file": "data\\s0\\price_hourly.csv"
+  },
+  "price_quarter_hourly": {
+    "ok": true,
+    "day": "2025-10-15",
+    "n_points": 97,
+    "inferred_resolution": "0 days 00:15:00",
+    "index_start": "2025-10-15 00:00:00+02:00",
+    "index_end": "2025-10-16 00:00:00+02:00",
+    "first_3": {
+      "2025-10-15 00:00:00+02:00": 74.5,
+      "2025-10-15 00:15:00+02:00": 64.99,
+      "2025-10-15 00:30:00+02:00": 55.0
+    },
+    "file": "data\\s0\\price_quarter_hourly.csv"
+  },
+  "load_forecast_hourly": {
+    "ok": true,
+    "day": "2025-09-15",
+    "n_rows": 24,
+    "inferred_resolution": "0 days 01:00:00",
+    "columns": [
+      "Forecasted Load"
+    ],
+    "index_start": "2025-09-15 00:00:00+02:00",
+    "index_end": "2025-09-15 23:00:00+02:00",
+    "first_3": {
+      "2025-09-15 00:00:00+02:00": {
+        "Forecasted Load": 7133.0
+      },
+      "2025-09-15 01:00:00+02:00": {
+        "Forecasted Load": 6962.0
+      },
+      "2025-09-15 02:00:00+02:00": {
+        "Forecasted Load": 6860.0
+      }
+    },
+    "file": "data\\s0\\load_forecast_hourly.csv"
+  },
+  "load_forecast_quarter_hourly": {
+    "ok": true,
+    "day": "2025-10-15",
+    "n_rows": 24,
+    "inferred_resolution": "0 days 01:00:00",
+    "columns": [
+      "Forecasted Load"
+    ],
+    "index_start": "2025-10-15 00:00:00+02:00",
+    "index_end": "2025-10-15 23:00:00+02:00",
+    "first_3": {
+      "2025-10-15 00:00:00+02:00": {
+        "Forecasted Load": 8176.0
+      },
+      "2025-10-15 01:00:00+02:00": {
+        "Forecasted Load": 7978.0
+      },
+      "2025-10-15 02:00:00+02:00": {
+        "Forecasted Load": 7931.0
+      }
+    },
+    "file": "data\\s0\\load_forecast_quarter_hourly.csv"
+  },
+  "wind_solar_forecast_hourly": {
+    "ok": true,
+    "day": "2025-09-15",
+    "n_rows": 24,
+    "inferred_resolution": "0 days 01:00:00",
+    "columns": [
+      "Solar",
+      "Wind Onshore"
+    ],
+    "index_start": "2025-09-15 00:00:00+02:00",
+    "index_end": "2025-09-15 23:00:00+02:00",
+    "first_3": {
+      "2025-09-15 00:00:00+02:00": {
+        "Solar": 0.4,
+        "Wind Onshore": 426.5
+      },
+      "2025-09-15 01:00:00+02:00": {
+        "Solar": 0.41,
+        "Wind Onshore": 389.92
+      },
+      "2025-09-15 02:00:00+02:00": {
+        "Solar": 0.41,
+        "Wind Onshore": 357.05
+      }
+    },
+    "file": "data\\s0\\wind_solar_forecast_hourly.csv"
+  },
+  "wind_solar_forecast_quarter_hourly": {
+    "ok": true,
+    "day": "2025-10-15",
+    "n_rows": 24,
+    "inferred_resolution": "0 days 01:00:00",
+    "columns": [
+      "Solar",
+      "Wind Onshore"
+    ],
+    "index_start": "2025-10-15 00:00:00+02:00",
+    "index_end": "2025-10-15 23:00:00+02:00",
+    "first_3": {
+      "2025-10-15 00:00:00+02:00": {
+        "Solar": 0.36,
+        "Wind Onshore": 960.44
+      },
+      "2025-10-15 01:00:00+02:00": {
+        "Solar": 0.34,
+        "Wind Onshore": 932.01
+      },
+      "2025-10-15 02:00:00+02:00": {
+        "Solar": 0.34,
+        "Wind Onshore": 870.57
+      }
+    },
+    "file": "data\\s0\\wind_solar_forecast_quarter_hourly.csv"
+  },
+  "outage_generation_units": {
+    "ok": true,
+    "n_rows": 3,
+    "columns": [
+      "avail_qty",
+      "biddingzone_domain",
+      "businesstype",
+      "curvetype",
+      "docstatus",
+      "end",
+      "mrid",
+      "nominal_power",
+      "plant_type",
+      "production_resource_id",
+      "production_resource_location",
+      "production_resource_name",
+      "production_resource_psr_name",
+      "pstn",
+      "qty_uom",
+      "resolution",
+      "revision",
+      "start"
+    ],
+    "qty_col_used": "avail_qty",
+    "matched_row": {
+      "avail_qty": "0",
+      "biddingzone_domain": "SE_3",
+      "businesstype": "Planned maintenance",
+      "curvetype": "A03",
+      "docstatus": null,
+      "end": "2025-09-05T08:00:00.000Z",
+      "mrid": "dbzDoFD2w8wT92FYxoQTyw",
+      "nominal_power": 130.0,
+      "plant_type": "Biomass",
+      "production_resource_id": "46WPU0000000023X",
+      "production_resource_location": "SE3",
+      "production_resource_name": "V\u00e4rtaverket",
+      "production_resource_psr_name": "KVV8 V\u00e4rtaverket",
+      "pstn": "1",
+      "qty_uom": "MAW",
+      "resolution": "PT1M",
+      "revision": 3,
+      "start": "2025-09-01T06:00:00.000Z"
+    },
+    "file": "data\\s0\\outage_row.json",
+    "all_rows_file": "data\\s0\\outage_all_rows.csv"
+  },
+  "umm_messages": {
+    "ok": true,
+    "request_params": {
+      "areas": "10Y1001A1001A46L",
+      "publicationStartDate": "2025-09-01",
+      "publicationStopDate": "2025-09-30",
+      "limit": 200
+    },
+    "reported_total": 44,
+    "n_items_fetched": 44
+  },
+  "umm_match": {
+    "ok": false,
+    "row_name_searched": "V\u00e4rtaverket",
+    "row_eic_searched": "46WPU0000000023X",
+    "note": "no outage row matched a UMM message by name/EIC; saved a fallback message instead"
+  },
+  "english_check": {
+    "ok": true,
+    "n_total_messages": 44,
+    "n_empty_remarks_and_reason": 0,
+    "frac_empty": 0.0,
+    "n_english_heuristic": 40,
+    "n_swedish_heuristic": 4,
+    "frac_english_of_nonempty": 0.9090909090909091,
+    "langdetect_available": false,
+    "langdetect_label_counts": {}
+  },
+  "_meta": {
+    "elapsed_seconds": 12.410173416137695,
+    "zone": "SE_3",
+    "zone_eic": "10Y1001A1001A46L"
+  }
+}

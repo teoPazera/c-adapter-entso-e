@@ -1,0 +1,101 @@
+{
+  "messageType": 3,
+  "isOutdated": false,
+  "unavailabilityType": 2,
+  "reasonCode": 2,
+  "eventStart": "2025-09-30T06:00:00.0000000Z",
+  "eventStop": "2025-10-03T19:00:00.0000000Z",
+  "unavailabilityReason": "Removal of old flight marker",
+  "remarks": "The Nordic TSOs acknowledge that our current tool for estimating the impact on cross-zonal exchange, as required by TR (EU Regulation 543/2013), is not yet optimized for the flow-based capacity calculation process. We are actively working on improving this tool.",
+  "transmissionUnits": [
+    {
+      "name": "SE2 \u2192 NO3",
+      "inAreaEic": "10Y1001A1001A45N",
+      "inAreaName": "SE2",
+      "outAreaEic": "10YNO-3--------J",
+      "outAreaName": "NO3",
+      "installedCapacity": 1000,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 300,
+          "availableCapacity": 700,
+          "eventStart": "2025-09-30T06:00:00.0000000Z",
+          "eventStop": "2025-10-03T19:00:00.0000000Z"
+        }
+      ]
+    },
+    {
+      "name": "SE3 \u2192 NO1",
+      "inAreaEic": "10Y1001A1001A46L",
+      "inAreaName": "SE3",
+      "outAreaEic": "10YNO-1--------2",
+      "outAreaName": "NO1",
+      "installedCapacity": 2095,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 200,
+          "availableCapacity": 1895,
+          "eventStart": "2025-09-30T06:00:00.0000000Z",
+          "eventStop": "2025-10-03T19:00:00.0000000Z"
+        }
+      ]
+    },
+    {
+      "name": "NO5 \u2192 NO3",
+      "inAreaEic": "10Y1001A1001A48H",
+      "inAreaName": "NO5",
+      "outAreaEic": "10YNO-3--------J",
+      "outAreaName": "NO3",
+      "installedCapacity": 500,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 500,
+          "availableCapacity": 0,
+          "eventStart": "2025-09-30T06:00:00.0000000Z",
+          "eventStop": "2025-10-03T19:00:00.0000000Z"
+        }
+      ]
+    },
+    {
+      "name": "NO3 \u2192 NO5",
+      "inAreaEic": "10YNO-3--------J",
+      "inAreaName": "NO3",
+      "outAreaEic": "10Y1001A1001A48H",
+      "outAreaName": "NO5",
+      "installedCapacity": 800,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 500,
+          "availableCapacity": 300,
+          "eventStart": "2025-09-30T06:00:00.0000000Z",
+          "eventStop": "2025-10-03T19:00:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "name": "420ALFOTEN-MOSKOG",
+      "code": "50TL00000002541B"
+    }
+  ],
+  "marketParticipants": [
+    {
+      "name": "NUCS",
+      "code": "10V1001C--000187",
+      "acerCode": "000000000.00",
+      "eicCode": "10V1001C--000187"
+    },
+    {
+      "name": "STATNETT SF",
+      "code": "10X1001A1001A38Y",
+      "eicCode": "10X1001A1001A38Y"
+    }
+  ],
+  "eventStatus": 3,
+  "messageId": "7daa0cd0-a51b-4685-ac9a-a8ff86d7c9d4",
+  "version": 2,
+  "publicationDate": "2025-09-29T10:37:16.0000000Z",
+  "publisherId": "N00622",
+  "publisherName": "Statnett SF"
+}

@@ -1,0 +1,20 @@
+{
+  "avail_qty": "0",
+  "biddingzone_domain": "SE_3",
+  "businesstype": "Planned maintenance",
+  "curvetype": "A03",
+  "docstatus": null,
+  "end": "2025-09-05T08:00:00.000Z",
+  "mrid": "dbzDoFD2w8wT92FYxoQTyw",
+  "nominal_power": 130.0,
+  "plant_type": "Biomass",
+  "production_resource_id": "46WPU0000000023X",
+  "production_resource_location": "SE3",
+  "production_resource_name": "V\u00e4rtaverket",
+  "production_resource_psr_name": "KVV8 V\u00e4rtaverket",
+  "pstn": "1",
+  "qty_uom": "MAW",
+  "resolution": "PT1M",
+  "revision": 3,
+  "start": "2025-09-01T06:00:00.000Z"
+}

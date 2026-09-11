@@ -1,0 +1,39 @@
+{
+  "n_total_messages": 44,
+  "n_empty_remarks_and_reason": 0,
+  "frac_empty": 0.0,
+  "n_english_heuristic": 40,
+  "n_swedish_heuristic": 4,
+  "frac_english_of_nonempty": 0.9090909090909091,
+  "langdetect_available": false,
+  "langdetect_label_counts": {},
+  "examples_empty": [],
+  "examples_english": [
+    {
+      "messageId": "a04adb10-3377-4cd4-9a16-2f3ad9a942c7",
+      "text": "Summer maintenance stop"
+    },
+    {
+      "messageId": "7daa0cd0-a51b-4685-ac9a-a8ff86d7c9d4",
+      "text": "The Nordic TSOs acknowledge that our current tool for estimating the impact on cross-zonal exchange, as required by TR (EU Regulation 543/2013), is not yet optimized for the flow-based capacity calcul"
+    },
+    {
+      "messageId": "58ba09a1-0359-4aea-8b26-07cac5204247",
+      "text": "External grid work"
+    }
+  ],
+  "examples_other_or_swedish": [
+    {
+      "messageId": "baf5e075-ec29-405d-9f2e-6061a8dc55c9",
+      "text": "Missing heartbeat for the mFRR EAM market, which may result in Svenska Kraftn\u00e4t not activating Vattenfall's mFRR EAM bids.\nReson and duration unknown"
+    },
+    {
+      "messageId": "ba947351-971e-44e1-9632-d78687609650",
+      "text": "The production capacity will be reduced with up to 245 MW in G\u00f6ta river due to discharge limitations caused by maintenance day time 07:00-17:00. Updated end time."
+    },
+    {
+      "messageId": "8acb2c49-85c8-45ae-af7d-90cc4c1962a2",
+      "text": "During the period from 2025-09-04 \u2013 MTU 18:45 to 2025-09-04 MTU 19:15, Svenska Kraftn\u00e4t had to manage imbalances due to delay in work in the power grid. These were not caused by imbalances at the bala"
+    }
+  ]
+}

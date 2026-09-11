@@ -1,0 +1,4 @@
+created_doc_time,avail_qty,biddingzone_domain,businesstype,curvetype,docstatus,end,mrid,nominal_power,plant_type,production_resource_id,production_resource_location,production_resource_name,production_resource_psr_name,pstn,qty_uom,resolution,revision,start
+2025-10-08 08:46:07+02:00,0,SE_3,Planned maintenance,A03,,2025-09-05 10:00:00+02:00,dbzDoFD2w8wT92FYxoQTyw,130.0,Biomass,46WPU0000000023X,SE3,Värtaverket,KVV8 Värtaverket,1,MAW,PT1M,3,2025-09-01 08:00:00+02:00
+2025-11-10 16:11:21+01:00,0,SE_3,Planned maintenance,A03,,2025-11-02 08:16:00+01:00,Nilntk4-ZifAIdxNM5sUkA,1400.0,Nuclear,46WPU0000000061P,SE3,Oskarshamn 3,Oskarshamn G3,1,MAW,PT1M,16,2025-03-29 17:33:00+01:00
+2026-03-31 12:52:32+02:00,0,SE_3,Planned maintenance,A03,,2026-03-31 13:00:00+02:00,EiZMK95oV8jbmjAoaEJXbQ,190.0,Fossil Oil,46WPU0000000023X,SE3,Värtaverket,KVV1 Värtaverket,1,MAW,PT1M,13,2024-07-29 09:00:00+02:00
