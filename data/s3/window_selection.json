@@ -1,0 +1,59 @@
+{
+  "windows": {
+    "365": {
+      "n_obs": 4344,
+      "mae_model": 24.087395605166833,
+      "mae_naive": 32.93891524643022,
+      "mae_naive_lag24": 28.81874021188392,
+      "rmae_vs_naive": 0.7312747072864618,
+      "rmae_vs_naive_lag24": 0.8358240307546118,
+      "n_obs_nonfinite_point": 0,
+      "n_obs_scoreable_crps": 3671,
+      "n_crps_model_nan_rows": 0,
+      "n_crps_naive_nan_rows": 1,
+      "crps_model": 17.17573087252397,
+      "crps_naive": 24.13707085544242,
+      "coverage90_model": 0.8847725415418142,
+      "coverage90_naive": 0.9376021798365123,
+      "model_diagnostics": {
+        "n_models": 181,
+        "n_ffill_feature_nan": 3982,
+        "n_bfill_feature_nan": 22,
+        "n_degenerate_hours": 0,
+        "n_numerical_failure_hours": 0,
+        "n_lars_blowup_hours": 9,
+        "n_ridge_fallback_models": 181,
+        "max_abs_coef": 0.9794504642486572
+      }
+    },
+    "730": {
+      "n_obs": 4344,
+      "mae_model": 22.615199448671543,
+      "mae_naive": 32.93891524643022,
+      "mae_naive_lag24": 28.81874021188392,
+      "rmae_vs_naive": 0.686579970210843,
+      "rmae_vs_naive_lag24": 0.7847393495481723,
+      "n_obs_nonfinite_point": 0,
+      "n_obs_scoreable_crps": 3671,
+      "n_crps_model_nan_rows": 0,
+      "n_crps_naive_nan_rows": 1,
+      "crps_model": 16.50379468411274,
+      "crps_naive": 24.13707085544242,
+      "coverage90_model": 0.8815036774720785,
+      "coverage90_naive": 0.9376021798365123,
+      "model_diagnostics": {
+        "n_models": 1338,
+        "n_ffill_feature_nan": 58652,
+        "n_bfill_feature_nan": 5231,
+        "n_degenerate_hours": 0,
+        "n_numerical_failure_hours": 0,
+        "n_lars_blowup_hours": 0,
+        "n_ridge_fallback_models": 0,
+        "max_abs_coef": 1.6390910148620605
+      }
+    }
+  },
+  "chosen_window_days": 730,
+  "rule": "lower validation MAE",
+  "caveat": "window comparison is confounded with noise_variance_method: the 1-year window always uses the ridge fallback (n<=p+1), the 2-year window always uses sklearn's own OLS estimator (n>p+1) -- see model_diagnostics.n_ridge_fallback_models per window."
+}
