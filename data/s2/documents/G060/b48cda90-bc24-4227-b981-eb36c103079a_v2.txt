@@ -1,0 +1,15 @@
+Event: G060 (Forsmark block 3, generation)
+Message: b48cda90-bc24-4227-b981-eb36c103079a version 2
+Published: 2024-03-21T08:33:18.1571710Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Fuel repair
+
+Time periods:
+  Unit/border: Forsmark Block3
+    2024-03-16T16:00:00.0000000Z -> 2024-03-21T22:00:00.0000000Z: unavailable 1172 MW, available 0 MW
+
+Remarks:
+Back on grid 21/3 23:00.
+1000MW between 21/3 night and 22/3 morning.
+Full power 24/3 morning.

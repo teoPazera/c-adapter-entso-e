@@ -1,0 +1,174 @@
+{
+  "messageType": 3,
+  "isOutdated": true,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "eventStart": "2024-06-18T15:00:00.0000000Z",
+  "eventStop": "2024-06-19T21:59:00.0000000Z",
+  "unavailabilityReason": "See UMM from Ringhals AB.",
+  "remarks": "Reduced capacity due to unplanned outage on Ringhals G42. Preliminary capacities: NTC capacitites expected to vary on Day-Ahead as follows: SE2>SE3: 5700-6300; SE3>SE4: 3800-4300; SE3>SE3A: 550-950; FI>SE3: 0-200 MW. The capacities depend on availability of remedial actions, ambient temperatures and expected load flow conditions.",
+  "transmissionUnits": [
+    {
+      "name": "SE3 \u2192 SE3A",
+      "inAreaEic": "10Y1001A1001A46L",
+      "inAreaName": "SE3",
+      "outAreaEic": "10Y1001C--00148Q",
+      "outAreaName": "SE3A",
+      "installedCapacity": 2810,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 2160,
+          "availableCapacity": 650,
+          "eventStart": "2024-06-18T15:00:00.0000000Z",
+          "eventStop": "2024-06-19T21:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2160,
+          "availableCapacity": 650,
+          "eventStart": "2024-06-19T21:00:00.0000000Z",
+          "eventStop": "2024-06-19T21:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2160,
+          "availableCapacity": 650,
+          "eventStart": "2024-06-19T21:30:00.0000000Z",
+          "eventStop": "2024-06-19T21:45:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2160,
+          "availableCapacity": 650,
+          "eventStart": "2024-06-19T21:45:00.0000000Z",
+          "eventStop": "2024-06-19T21:59:00.0000000Z"
+        }
+      ]
+    },
+    {
+      "name": "SE3 \u2192 SE4",
+      "inAreaEic": "10Y1001A1001A46L",
+      "inAreaName": "SE3",
+      "outAreaEic": "10Y1001A1001A47J",
+      "outAreaName": "SE4",
+      "installedCapacity": 6200,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 2400,
+          "availableCapacity": 3800,
+          "eventStart": "2024-06-18T15:00:00.0000000Z",
+          "eventStop": "2024-06-19T21:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2400,
+          "availableCapacity": 3800,
+          "eventStart": "2024-06-19T21:00:00.0000000Z",
+          "eventStop": "2024-06-19T21:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2400,
+          "availableCapacity": 3800,
+          "eventStart": "2024-06-19T21:30:00.0000000Z",
+          "eventStop": "2024-06-19T21:45:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2400,
+          "availableCapacity": 3800,
+          "eventStart": "2024-06-19T21:45:00.0000000Z",
+          "eventStop": "2024-06-19T21:59:00.0000000Z"
+        }
+      ]
+    },
+    {
+      "name": "SE2 \u2192 SE3",
+      "inAreaEic": "10Y1001A1001A45N",
+      "inAreaName": "SE2",
+      "outAreaEic": "10Y1001A1001A46L",
+      "outAreaName": "SE3",
+      "installedCapacity": 7300,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1400,
+          "availableCapacity": 5900,
+          "eventStart": "2024-06-18T15:00:00.0000000Z",
+          "eventStop": "2024-06-19T21:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1400,
+          "availableCapacity": 5900,
+          "eventStart": "2024-06-19T21:00:00.0000000Z",
+          "eventStop": "2024-06-19T21:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1400,
+          "availableCapacity": 5900,
+          "eventStart": "2024-06-19T21:30:00.0000000Z",
+          "eventStop": "2024-06-19T21:45:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1400,
+          "availableCapacity": 5900,
+          "eventStart": "2024-06-19T21:45:00.0000000Z",
+          "eventStop": "2024-06-19T21:59:00.0000000Z"
+        }
+      ]
+    },
+    {
+      "name": "FI \u2192 SE3",
+      "inAreaEic": "10YFI-1--------U",
+      "inAreaName": "FI",
+      "outAreaEic": "10Y1001A1001A46L",
+      "outAreaName": "SE3",
+      "installedCapacity": 1200,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1100,
+          "availableCapacity": 100,
+          "eventStart": "2024-06-18T15:00:00.0000000Z",
+          "eventStop": "2024-06-19T21:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1100,
+          "availableCapacity": 100,
+          "eventStart": "2024-06-19T21:00:00.0000000Z",
+          "eventStop": "2024-06-19T21:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1100,
+          "availableCapacity": 100,
+          "eventStart": "2024-06-19T21:30:00.0000000Z",
+          "eventStop": "2024-06-19T21:45:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1100,
+          "availableCapacity": 100,
+          "eventStart": "2024-06-19T21:45:00.0000000Z",
+          "eventStop": "2024-06-19T21:59:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "name": "Operational Security SE3",
+      "code": "46TAC0000000162S"
+    }
+  ],
+  "marketParticipants": [
+    {
+      "name": "NUCS",
+      "code": "10V1001C--000187",
+      "acerCode": "000000000.00",
+      "eicCode": "10V1001C--000187"
+    },
+    {
+      "name": "Aff\u00e4rsverket svenska kraftn\u00e4t",
+      "code": "10X1001A1001A418",
+      "acerCode": "A00000355.SE",
+      "eicCode": "10X1001A1001A418"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "f2578225-b470-4b85-ae92-1e4ea03e0b36",
+  "version": 1,
+  "publicationDate": "2024-06-17T15:43:09.0000000Z",
+  "publisherId": "N00643",
+  "publisherName": "Svenska kraftn\u00e4t"
+}

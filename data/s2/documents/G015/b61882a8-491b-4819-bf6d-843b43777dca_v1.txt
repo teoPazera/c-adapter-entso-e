@@ -1,0 +1,13 @@
+Event: G015 (Ringhals 4, generation)
+Message: b61882a8-491b-4819-bf6d-843b43777dca version 1
+Published: 2021-12-08T10:00:19.6570560Z
+Unavailability type: Planned
+Reason code: Foreseen maintenance
+Unavailability reason: The plant will temporarily be taken out of operation for valve tests.
+
+Time periods:
+  Unit/border: Ringhals Block4
+    2021-12-18T05:00:00.0000000Z -> 2021-12-19T05:00:00.0000000Z: unavailable 1130 MW, available 0 MW
+
+Remarks:
+Power reduction starts at 02:00, 18.12.2021. Normal production expected during the afternoon on 19.12.2021.

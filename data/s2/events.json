@@ -1,0 +1,1385 @@
+{
+  "generated_by": "src/s2_curate_events.py",
+  "generated_at_utc": "2026-09-11T22:08:04Z",
+  "n_events": 18,
+  "strata_counts": {
+    "stratum_A_unplanned_generation": {
+      "target": [
+        9,
+        11
+      ],
+      "n_selected": 11,
+      "n_revision_surprise": 11
+    },
+    "stratum_B_planned_generation": {
+      "target": [
+        2,
+        3
+      ],
+      "n_selected": 3
+    },
+    "stratum_C_unplanned_transmission": {
+      "target": [
+        3,
+        4
+      ],
+      "n_selected": 4
+    },
+    "stratum_D_hydro_plausible": {
+      "target_min": 3,
+      "n_selected": 4
+    }
+  },
+  "events": [
+    {
+      "event_id": "G074",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000017S",
+      "unit_name": "Forsmark block 3",
+      "zone": "SE3",
+      "entsoe_mrid": "TkOkIe0ByRAkNlLjf14HNw",
+      "entsoe_source": "A77",
+      "realised_start": "2025-02-05T17:00:00+00:00",
+      "realised_end": "2025-02-08T03:00:00+00:00",
+      "reduction_mw": 1172.0,
+      "businesstype": "Unplanned outage",
+      "season": "winter",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "ac830608-da5a-4fc5-a453-736c0aad3c73"
+      ],
+      "versions": [
+        {
+          "messageId": "ac830608-da5a-4fc5-a453-736c0aad3c73",
+          "version": 1,
+          "publicationDate": "2025-02-04T08:25:26.6793750Z",
+          "event_start": "2025-02-05T09:01:00+00:00",
+          "event_stop": "2025-02-07T07:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "From 5/2 20:00 the power will decrease and leaving grid 24:00 5/2\nBack on grid 08:00 7/2 and full power 10/2 morning"
+        },
+        {
+          "messageId": "ac830608-da5a-4fc5-a453-736c0aad3c73",
+          "version": 2,
+          "publicationDate": "2025-02-05T08:08:11.2425910Z",
+          "event_start": "2025-02-05T09:01:00+00:00",
+          "event_stop": "2025-02-07T11:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "From 5/2 20:00 the power will decrease and leaving grid 22:00 5/2\nBack on grid 12:00 7/2 and full power 10/2 lunch"
+        },
+        {
+          "messageId": "ac830608-da5a-4fc5-a453-736c0aad3c73",
+          "version": 3,
+          "publicationDate": "2025-02-07T02:27:31.6094110Z",
+          "event_start": "2025-02-05T09:01:00+00:00",
+          "event_stop": "2025-02-07T20:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Back on grid 21:00 7/2 and full power 10/2 evening"
+        },
+        {
+          "messageId": "ac830608-da5a-4fc5-a453-736c0aad3c73",
+          "version": 4,
+          "publicationDate": "2025-02-07T13:48:45.9920360Z",
+          "event_start": "2025-02-05T09:01:00+00:00",
+          "event_stop": "2025-02-08T01:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Back on grid 02:00 8/2 and full power with in 3 days"
+        },
+        {
+          "messageId": "ac830608-da5a-4fc5-a453-736c0aad3c73",
+          "version": 5,
+          "publicationDate": "2025-02-08T01:43:12.6641090Z",
+          "event_start": "2025-02-05T09:01:00+00:00",
+          "event_stop": "2025-02-08T03:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "New event stopp. Full power with in 3 days"
+        }
+      ],
+      "first_publication_lead_hours": 32.57592239583333,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2025-02-04T08:25:26.6793750Z",
+        "day_ahead": "2025-02-04T12:00:00+01:00"
+      }
+    },
+    {
+      "event_id": "G018",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU00000000121",
+      "unit_name": "Ringhals 3",
+      "zone": "SE3",
+      "entsoe_mrid": "TSSI-pNx9puN_JohcW42eA",
+      "entsoe_source": "A77",
+      "realised_start": "2022-01-06T20:28:00+00:00",
+      "realised_end": "2022-01-11T06:33:00+00:00",
+      "reduction_mw": 1063.0,
+      "businesstype": "Unplanned outage",
+      "season": "winter",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "3b377b48-5d7a-4549-acce-bbfbeadc4cb4"
+      ],
+      "versions": [
+        {
+          "messageId": "3b377b48-5d7a-4549-acce-bbfbeadc4cb4",
+          "version": 1,
+          "publicationDate": "2022-01-06T21:07:32.4634990Z",
+          "event_start": "2022-01-06T20:28:00+00:00",
+          "event_stop": "2022-01-08T22:59:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "Reactor trip. Duration unknown, more information will be given when available."
+        },
+        {
+          "messageId": "3b377b48-5d7a-4549-acce-bbfbeadc4cb4",
+          "version": 2,
+          "publicationDate": "2022-01-08T08:51:29.0360460Z",
+          "event_start": "2022-01-06T20:28:00+00:00",
+          "event_stop": "2022-01-10T22:59:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "Further investigations needed. More information will be given when available."
+        },
+        {
+          "messageId": "3b377b48-5d7a-4549-acce-bbfbeadc4cb4",
+          "version": 3,
+          "publicationDate": "2022-01-10T10:12:04.8846150Z",
+          "event_start": "2022-01-06T20:28:00+00:00",
+          "event_stop": "2022-01-11T22:59:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: Further investigations needed. More information will be given when available."
+        },
+        {
+          "messageId": "3b377b48-5d7a-4549-acce-bbfbeadc4cb4",
+          "version": 4,
+          "publicationDate": "2022-01-10T21:27:04.6620690Z",
+          "event_start": "2022-01-06T20:28:00+00:00",
+          "event_stop": "2022-01-11T08:00:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: Event stop updated.\nNormal production is expected during the afternoon 11-01-2022"
+        },
+        {
+          "messageId": "3b377b48-5d7a-4549-acce-bbfbeadc4cb4",
+          "version": 5,
+          "publicationDate": "2022-01-11T06:50:13.2885240Z",
+          "event_start": "2022-01-06T20:28:00+00:00",
+          "event_stop": "2022-01-11T06:33:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: Ringhals 3 is back in operation.\nNormal production is expected during the afternoon 11-01-2022"
+        }
+      ],
+      "first_publication_lead_hours": -0.6590176386111111,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2022-01-06T21:07:32.4634990Z",
+        "day_ahead": "2022-01-05T12:00:00+01:00"
+      }
+    },
+    {
+      "event_id": "G060",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000017S",
+      "unit_name": "Forsmark block 3",
+      "zone": "SE3",
+      "entsoe_mrid": "5HyBlEb1bJ-E5hjxWdMymw",
+      "entsoe_source": "A77",
+      "realised_start": "2024-03-16T16:00:00+00:00",
+      "realised_end": "2024-03-22T01:00:00+00:00",
+      "reduction_mw": 1172.0,
+      "businesstype": "Unplanned outage",
+      "season": "spring",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "b48cda90-bc24-4227-b981-eb36c103079a"
+      ],
+      "versions": [
+        {
+          "messageId": "b48cda90-bc24-4227-b981-eb36c103079a",
+          "version": 1,
+          "publicationDate": "2024-02-14T08:25:08.5827730Z",
+          "event_start": "2024-03-16T16:00:00+00:00",
+          "event_stop": "2024-03-21T15:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Reducing power to 600MW 15/3 12:00. Test at that power until leaving grid 16/3 17:00.\nBack on grid 21/3 16:00.\n1000MW between 21/3 evening and 22/3 night.\nFull power 23/3 night."
+        },
+        {
+          "messageId": "b48cda90-bc24-4227-b981-eb36c103079a",
+          "version": 2,
+          "publicationDate": "2024-03-21T08:33:18.1571710Z",
+          "event_start": "2024-03-16T16:00:00+00:00",
+          "event_stop": "2024-03-21T22:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Back on grid 21/3 23:00.\n1000MW between 21/3 night and 22/3 morning.\nFull power 24/3 morning."
+        },
+        {
+          "messageId": "b48cda90-bc24-4227-b981-eb36c103079a",
+          "version": 3,
+          "publicationDate": "2024-03-21T21:45:53.8403830Z",
+          "event_start": "2024-03-16T16:00:00+00:00",
+          "event_stop": "2024-03-22T01:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Back on grid 22/3 02:00.\n1000MW between 22/3 morning and 23/3 evening.\nFull power 24/3 morning."
+        }
+      ],
+      "first_publication_lead_hours": 751.5809492297223,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2024-02-14T08:25:08.5827730Z",
+        "day_ahead": "2024-03-15T12:00:00+01:00"
+      }
+    },
+    {
+      "event_id": "G097",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000017S",
+      "unit_name": "Forsmark block 3",
+      "zone": "SE3",
+      "entsoe_mrid": "wHHRr5sIPZS8caKe-o9jRg",
+      "entsoe_source": "A77",
+      "realised_start": "2026-04-09T01:00:00+00:00",
+      "realised_end": "2026-04-10T23:30:00+00:00",
+      "reduction_mw": 1172.0,
+      "businesstype": "Unplanned outage",
+      "season": "spring",
+      "hydro_plausible": true,
+      "umm_thread_ids": [
+        "4415ea6d-4f7c-44c0-9ef0-67248981b2eb"
+      ],
+      "versions": [
+        {
+          "messageId": "4415ea6d-4f7c-44c0-9ef0-67248981b2eb",
+          "version": 1,
+          "publicationDate": "2026-04-08T14:03:01.2221310Z",
+          "event_start": "2026-04-09T01:00:00+00:00",
+          "event_stop": "2026-04-09T21:59:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Full power expected within 3 days after reconnected to the grid."
+        },
+        {
+          "messageId": "4415ea6d-4f7c-44c0-9ef0-67248981b2eb",
+          "version": 2,
+          "publicationDate": "2026-04-09T13:51:02.8887410Z",
+          "event_start": "2026-04-09T01:00:00+00:00",
+          "event_stop": "2026-04-10T21:59:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Full power expected within 3 days after reconnected to the grid."
+        },
+        {
+          "messageId": "4415ea6d-4f7c-44c0-9ef0-67248981b2eb",
+          "version": 3,
+          "publicationDate": "2026-04-10T13:17:21.1114290Z",
+          "event_start": "2026-04-09T01:00:00+00:00",
+          "event_stop": "2026-04-10T18:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Full power expected within 3 days after reconnected to the grid."
+        },
+        {
+          "messageId": "4415ea6d-4f7c-44c0-9ef0-67248981b2eb",
+          "version": 4,
+          "publicationDate": "2026-04-10T17:27:47.6502540Z",
+          "event_start": "2026-04-09T01:00:00+00:00",
+          "event_stop": "2026-04-10T19:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Reconnection to grid postponed one hour due to preparations for winding up the turbine. Full power expected within 3 days after reconnected to the grid."
+        },
+        {
+          "messageId": "4415ea6d-4f7c-44c0-9ef0-67248981b2eb",
+          "version": 5,
+          "publicationDate": "2026-04-10T19:35:12.4116720Z",
+          "event_start": "2026-04-09T01:00:00+00:00",
+          "event_stop": "2026-04-10T21:00:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Reconnection to grid postponed due to preparations for winding up the turbine. Full power expected within 3 days after reconnected to the grid."
+        },
+        {
+          "messageId": "4415ea6d-4f7c-44c0-9ef0-67248981b2eb",
+          "version": 6,
+          "publicationDate": "2026-04-10T20:12:46.4653150Z",
+          "event_start": "2026-04-09T01:00:00+00:00",
+          "event_stop": "2026-04-10T23:30:00+00:00",
+          "unavailable_mw": 1172,
+          "remarks": "Reconnection to the grid postponed due to vibrations during turbine winding. Full power expected within 3 days after reconnected to the grid."
+        }
+      ],
+      "first_publication_lead_hours": 10.949660519166667,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2026-04-08T14:03:01.2221310Z",
+        "day_ahead": "2026-04-08T12:00:00+02:00"
+      }
+    },
+    {
+      "event_id": "G085",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000016U",
+      "unit_name": "Forsmark block 2",
+      "zone": "SE3",
+      "entsoe_mrid": "FuyHxxtAzHL9-WXLpDZbbA",
+      "entsoe_source": "A77",
+      "realised_start": "2025-08-14T01:00:00+00:00",
+      "realised_end": "2025-08-16T12:00:00+00:00",
+      "reduction_mw": 1121.0,
+      "businesstype": "Unplanned outage",
+      "season": "summer",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "22ebf900-e4e4-4293-8803-e64739797189"
+      ],
+      "versions": [
+        {
+          "messageId": "22ebf900-e4e4-4293-8803-e64739797189",
+          "version": 1,
+          "publicationDate": "2025-08-13T12:52:17.2902050Z",
+          "event_start": "2025-08-14T01:00:00+00:00",
+          "event_stop": "2025-08-14T09:00:00+00:00",
+          "unavailable_mw": 0,
+          "remarks": "Start power decrease at 14.08.2025 3:00 and disconnect from grid about 8. Reconnect to grid att 11 and full power is expected 16.08.2025 at noon"
+        },
+        {
+          "messageId": "22ebf900-e4e4-4293-8803-e64739797189",
+          "version": 2,
+          "publicationDate": "2025-08-13T13:20:18.3505450Z",
+          "event_start": "2025-08-14T01:00:00+00:00",
+          "event_stop": "2025-08-14T09:00:00+00:00",
+          "unavailable_mw": 1121,
+          "remarks": "Start power decrease at 14.08.2025 3:00 and disconnect from grid about 8. Reconnect to grid att 11 and full power is expected 16.08.2025 at noon"
+        },
+        {
+          "messageId": "22ebf900-e4e4-4293-8803-e64739797189",
+          "version": 3,
+          "publicationDate": "2025-08-14T07:33:31.1146090Z",
+          "event_start": "2025-08-14T01:00:00+00:00",
+          "event_stop": "2025-08-14T21:59:00+00:00",
+          "unavailable_mw": 1121,
+          "remarks": "Start power decrease at 14.08.2025 3:00 and disconnect from grid about 8. Reconnect to grid is posponed. Troubleshooting is ongoing on main steam valve."
+        },
+        {
+          "messageId": "22ebf900-e4e4-4293-8803-e64739797189",
+          "version": 4,
+          "publicationDate": "2025-08-14T13:59:08.9984610Z",
+          "event_start": "2025-08-14T01:00:00+00:00",
+          "event_stop": "2025-08-16T07:00:00+00:00",
+          "unavailable_mw": 1121,
+          "remarks": "Start power decrease at 14.08.2025 3:00 and disconnect from grid about 8.\nReconnect to grid is expected 2025.08.16 9:00. Full power is expected to be reached 2025.08.18 at noon."
+        },
+        {
+          "messageId": "22ebf900-e4e4-4293-8803-e64739797189",
+          "version": 5,
+          "publicationDate": "2025-08-15T23:20:34.7226080Z",
+          "event_start": "2025-08-14T01:00:00+00:00",
+          "event_stop": "2025-08-16T11:00:00+00:00",
+          "unavailable_mw": 1121,
+          "remarks": "New event stop, due to additional work. Start power decrease at 14.08.2025 3:00 and disconnect from grid about 8.\nReconnect to grid is expected 2025.08.16 13.00. Full power is expected to be reached 2025.08.18 in the evening."
+        },
+        {
+          "messageId": "22ebf900-e4e4-4293-8803-e64739797189",
+          "version": 6,
+          "publicationDate": "2025-08-16T10:59:18.6636980Z",
+          "event_start": "2025-08-14T01:00:00+00:00",
+          "event_stop": "2025-08-16T12:00:00+00:00",
+          "unavailable_mw": 1121,
+          "remarks": "Updated event stop. Start power decrease at 14.08.2025 3:00 and disconnect from grid about 8.\nReconnect to grid is expected 2025.08.16 14.00. Full power is expected to be reached 2025.08.18 in the evening."
+        }
+      ],
+      "first_publication_lead_hours": 12.128530498611111,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2025-08-13T12:52:17.2902050Z",
+        "day_ahead": "2025-08-13T12:00:00+02:00"
+      }
+    },
+    {
+      "event_id": "G010",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000016U",
+      "unit_name": "Forsmark block 2",
+      "zone": "SE3",
+      "entsoe_mrid": "0Vj8X9dp2rGw8fjzhsdy5A",
+      "entsoe_source": "A77",
+      "realised_start": "2021-08-23T00:25:00+00:00",
+      "realised_end": "2021-08-27T13:30:00+00:00",
+      "reduction_mw": 1118.0,
+      "businesstype": "Unplanned outage",
+      "season": "summer",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "d6f5646d-55da-444e-a696-9661986bb327"
+      ],
+      "versions": [
+        {
+          "messageId": "d6f5646d-55da-444e-a696-9661986bb327",
+          "version": 1,
+          "publicationDate": "2021-08-23T00:32:24.8786410Z",
+          "event_start": "2021-08-23T00:25:00+00:00",
+          "event_stop": "2021-08-24T21:59:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Duration unknown. Further information will be given when available."
+        },
+        {
+          "messageId": "d6f5646d-55da-444e-a696-9661986bb327",
+          "version": 2,
+          "publicationDate": "2021-08-23T21:04:35.4438410Z",
+          "event_start": "2021-08-23T00:25:00+00:00",
+          "event_stop": "2021-08-24T06:00:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Back in normal operation at late evening 24.08.2021"
+        },
+        {
+          "messageId": "d6f5646d-55da-444e-a696-9661986bb327",
+          "version": 3,
+          "publicationDate": "2021-08-24T00:36:10.5679990Z",
+          "event_start": "2021-08-23T00:25:00+00:00",
+          "event_stop": "2021-08-24T16:00:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Delayed startup due to additional troubleshooting. Back in normal operation at morning 25.08.2021"
+        },
+        {
+          "messageId": "d6f5646d-55da-444e-a696-9661986bb327",
+          "version": 4,
+          "publicationDate": "2021-08-24T14:28:31.1129630Z",
+          "event_start": "2021-08-23T00:25:00+00:00",
+          "event_stop": "2021-08-26T10:00:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Delayed startup due to additional troubleshooting. Back in operation at noon 26.08.2021"
+        },
+        {
+          "messageId": "d6f5646d-55da-444e-a696-9661986bb327",
+          "version": 5,
+          "publicationDate": "2021-08-25T14:31:20.6492660Z",
+          "event_start": "2021-08-23T00:25:00+00:00",
+          "event_stop": "2021-08-27T13:00:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Delayed startup due to additional troubleshooting. Back in operation afternoon 27.08.2021"
+        },
+        {
+          "messageId": "d6f5646d-55da-444e-a696-9661986bb327",
+          "version": 6,
+          "publicationDate": "2021-08-27T12:52:35.8549660Z",
+          "event_start": "2021-08-23T00:25:00+00:00",
+          "event_stop": "2021-08-27T13:30:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Turbine 22 is expected to be back on grid 27.08.2021 at 15:30. Start up with turbine 21 is ongoing. Then power will be increased to 885MW in the evening. 20 hours later power slowly will be increased to full power. Full power is expected in the morning 2021-08-30."
+        }
+      ],
+      "first_publication_lead_hours": -0.12357740027777778,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2021-08-23T00:32:24.8786410Z",
+        "day_ahead": "2021-08-22T12:00:00+02:00"
+      }
+    },
+    {
+      "event_id": "G055",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000014Y",
+      "unit_name": "Ringhals 4",
+      "zone": "SE3",
+      "entsoe_mrid": "KvWUFmiHgVTG6h8KHkvmew",
+      "entsoe_source": "A77",
+      "realised_start": "2023-11-29T00:25:00+00:00",
+      "realised_end": "2023-12-04T02:00:00+00:00",
+      "reduction_mw": 1134.0,
+      "businesstype": "Unplanned outage",
+      "season": "autumn",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "f3a3203d-571b-445d-9e53-eb012857d9f3"
+      ],
+      "versions": [
+        {
+          "messageId": "f3a3203d-571b-445d-9e53-eb012857d9f3",
+          "version": 1,
+          "publicationDate": "2023-11-29T01:02:49.2618010Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-11-30T22:59:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "Failure, duration unknown. Further information will be given when available."
+        },
+        {
+          "messageId": "f3a3203d-571b-445d-9e53-eb012857d9f3",
+          "version": 2,
+          "publicationDate": "2023-11-30T08:15:28.1060840Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-12-02T22:59:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Updated event stop. Troubleshooting is ongoing, further information will be given when available."
+        },
+        {
+          "messageId": "f3a3203d-571b-445d-9e53-eb012857d9f3",
+          "version": 3,
+          "publicationDate": "2023-12-01T16:02:57.1444910Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-12-03T19:00:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Updated event stop. After the event stop Ringhals 4 will be technically available. Normal production can be reached in 20 hours."
+        },
+        {
+          "messageId": "f3a3203d-571b-445d-9e53-eb012857d9f3",
+          "version": 4,
+          "publicationDate": "2023-12-03T17:07:45.2632520Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-12-04T02:00:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Updated event stop. After the event stop Ringhals 4 will be technically available. Normal production can be reached in 20 hours."
+        }
+      ],
+      "first_publication_lead_hours": -0.6303505002777778,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2023-11-29T01:02:49.2618010Z",
+        "day_ahead": "2023-11-28T12:00:00+01:00"
+      }
+    },
+    {
+      "event_id": "G014",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000016U",
+      "unit_name": "Forsmark block 2",
+      "zone": "SE3",
+      "entsoe_mrid": "qGsH8TRVXcfQHvf1mUGQ2A",
+      "entsoe_source": "A77",
+      "realised_start": "2021-10-01T20:00:00+00:00",
+      "realised_end": "2021-10-03T09:00:00+00:00",
+      "reduction_mw": 1118.0,
+      "businesstype": "Unplanned outage",
+      "season": "autumn",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "aa586a50-6a15-40a3-b71b-18606288b0c9"
+      ],
+      "versions": [
+        {
+          "messageId": "aa586a50-6a15-40a3-b71b-18606288b0c9",
+          "version": 1,
+          "publicationDate": "2021-09-25T08:28:32.9052880Z",
+          "event_start": "2021-09-25T08:30:00+00:00",
+          "event_stop": "2021-09-25T21:59:00+00:00",
+          "unavailable_mw": 108,
+          "remarks": "Duration unknown"
+        },
+        {
+          "messageId": "aa586a50-6a15-40a3-b71b-18606288b0c9",
+          "version": 2,
+          "publicationDate": "2021-09-25T12:49:26.4795070Z",
+          "event_start": "2021-09-25T08:30:00+00:00",
+          "event_stop": "2021-10-01T21:59:00+00:00",
+          "unavailable_mw": 108,
+          "remarks": "Available power will be 1010MW until 2021.10.01 at 23:59.\nPlan for full power will be given when available."
+        },
+        {
+          "messageId": "aa586a50-6a15-40a3-b71b-18606288b0c9",
+          "version": 3,
+          "publicationDate": "2021-09-28T12:24:43.9023470Z",
+          "event_start": "2021-09-25T08:30:00+00:00",
+          "event_stop": "2021-10-03T08:00:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Power reduction will start 2021.10.01 at 14:00 and power will be 760 MW between 15:00-17:00 due to valvetest. Then power slowly will decreased during the evening and Forsmark 2 will leave grid 2021.10.01 at 22:00.\nPlanned to be back on grid 2021.10.03 at 10:00"
+        },
+        {
+          "messageId": "aa586a50-6a15-40a3-b71b-18606288b0c9",
+          "version": 4,
+          "publicationDate": "2021-09-28T13:34:09.8684510Z",
+          "event_start": "2021-09-25T08:30:00+00:00",
+          "event_stop": "2021-10-03T08:00:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Update: Power reduction will start 2021.10.01 at 14:00 and power will be 760 MW between 15:00-18:00 due to valvetest. Then power will slowly decrease down to 400MW in 1,5 hours. TA1 will go off grid 2021.10.01 at 20:00. Power reduction will continue and at 22:00, 2021.10.01 Forsmark 2 will leave grid."
+        },
+        {
+          "messageId": "aa586a50-6a15-40a3-b71b-18606288b0c9",
+          "version": 5,
+          "publicationDate": "2021-10-02T08:38:28.7302610Z",
+          "event_start": "2021-09-25T08:30:00+00:00",
+          "event_stop": "2021-10-03T08:00:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Update: Is expected to be back on grid 03.10.2021 at 10:00. Power will be increased to 885MW in the afternon. 30 hours later power slowly will be increased to full power. Full power is expected in the early tuesday 2021-10-05."
+        },
+        {
+          "messageId": "aa586a50-6a15-40a3-b71b-18606288b0c9",
+          "version": 6,
+          "publicationDate": "2021-10-02T20:54:00.5066320Z",
+          "event_start": "2021-09-25T08:30:00+00:00",
+          "event_stop": "2021-10-03T09:00:00+00:00",
+          "unavailable_mw": 1118,
+          "remarks": "Update: Is expected to be back on grid 03.10.2021 at 11:00. Power will be increased to 500 MW in the afternoon. Power will then be increased to 885 MW in the morning 04.10.2021. 30 hours later power slowly will be increased to full power. Full power is expected in the evening Tuesday 05.10.2021"
+        }
+      ],
+      "first_publication_lead_hours": 155.52419297555556,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2021-09-25T08:28:32.9052880Z",
+        "day_ahead": "2021-09-30T12:00:00+02:00"
+      }
+    },
+    {
+      "event_id": "G016",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU00000000121",
+      "unit_name": "Ringhals 3",
+      "zone": "SE3",
+      "entsoe_mrid": "n7g-SCuwx02auzB7dNkqyw",
+      "entsoe_source": "A77",
+      "realised_start": "2021-12-29T17:15:00+00:00",
+      "realised_end": "2022-01-01T10:00:00+00:00",
+      "reduction_mw": 1063.0,
+      "businesstype": "Unplanned outage",
+      "season": "winter",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "fd77deeb-a2ee-4edc-980e-69121e984459"
+      ],
+      "versions": [
+        {
+          "messageId": "fd77deeb-a2ee-4edc-980e-69121e984459",
+          "version": 1,
+          "publicationDate": "2021-12-29T17:41:00.4092310Z",
+          "event_start": "2021-12-29T17:15:00+00:00",
+          "event_stop": "2021-12-30T22:59:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "Reactor trip. Duration unknown, more information will be given when available."
+        },
+        {
+          "messageId": "fd77deeb-a2ee-4edc-980e-69121e984459",
+          "version": 2,
+          "publicationDate": "2021-12-30T13:19:25.4949970Z",
+          "event_start": "2021-12-29T17:15:00+00:00",
+          "event_stop": "2021-12-31T22:59:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: Additional time is needed for troubleshooting. More information when available."
+        },
+        {
+          "messageId": "fd77deeb-a2ee-4edc-980e-69121e984459",
+          "version": 3,
+          "publicationDate": "2021-12-31T19:48:27.8001970Z",
+          "event_start": "2021-12-29T17:15:00+00:00",
+          "event_stop": "2022-01-01T05:00:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: Event stop updated.\nNormal production is expected during the Noon 02.01.2022"
+        },
+        {
+          "messageId": "fd77deeb-a2ee-4edc-980e-69121e984459",
+          "version": 4,
+          "publicationDate": "2022-01-01T04:28:52.5355070Z",
+          "event_start": "2021-12-29T17:15:00+00:00",
+          "event_stop": "2022-01-01T09:00:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: Event stop updated.\nNormal production is expected during the Afternoon 02.01.2022"
+        },
+        {
+          "messageId": "fd77deeb-a2ee-4edc-980e-69121e984459",
+          "version": 5,
+          "publicationDate": "2022-01-01T09:26:20.3225060Z",
+          "event_start": "2021-12-29T17:15:00+00:00",
+          "event_stop": "2022-01-01T10:00:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: Event stop updated.\nNormal production is expected during the Afternoon 02.01.2022"
+        }
+      ],
+      "first_publication_lead_hours": -0.43344700861111113,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2021-12-29T17:41:00.4092310Z",
+        "day_ahead": "2021-12-28T12:00:00+01:00"
+      }
+    },
+    {
+      "event_id": "G053",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU00000000121",
+      "unit_name": "Ringhals 3",
+      "zone": "SE3",
+      "entsoe_mrid": "BT048PlKPvIW5PbV9Yz-6w",
+      "entsoe_source": "A77",
+      "realised_start": "2023-10-19T12:45:00+00:00",
+      "realised_end": "2023-10-21T06:00:00+00:00",
+      "reduction_mw": 1063.0,
+      "businesstype": "Unplanned outage",
+      "season": "autumn",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "c25c1170-d8fc-43e3-9515-3e74e41816d8"
+      ],
+      "versions": [
+        {
+          "messageId": "c25c1170-d8fc-43e3-9515-3e74e41816d8",
+          "version": 1,
+          "publicationDate": "2023-10-19T13:20:20.3184280Z",
+          "event_start": "2023-10-19T12:45:00+00:00",
+          "event_stop": "2023-10-21T21:59:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "Reactor trip. Duration unknown, more information will be given when available."
+        },
+        {
+          "messageId": "c25c1170-d8fc-43e3-9515-3e74e41816d8",
+          "version": 2,
+          "publicationDate": "2023-10-20T08:21:15.7971040Z",
+          "event_start": "2023-10-19T12:45:00+00:00",
+          "event_stop": "2023-10-21T00:00:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: Updated event stop 21.10.2023 02:00. Normal production is expected in the afternoon."
+        },
+        {
+          "messageId": "c25c1170-d8fc-43e3-9515-3e74e41816d8",
+          "version": 3,
+          "publicationDate": "2023-10-20T23:12:54.9938920Z",
+          "event_start": "2023-10-19T12:45:00+00:00",
+          "event_stop": "2023-10-21T03:00:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: After the event stop Ringhals 3 will be technically available. Normal production can be reached in 15 hours."
+        },
+        {
+          "messageId": "c25c1170-d8fc-43e3-9515-3e74e41816d8",
+          "version": 4,
+          "publicationDate": "2023-10-21T03:08:23.7040380Z",
+          "event_start": "2023-10-19T12:45:00+00:00",
+          "event_stop": "2023-10-21T06:00:00+00:00",
+          "unavailable_mw": 1074,
+          "remarks": "New information: After the event stop Ringhals 3 will be technically available. Normal production can be reached in 15 hours."
+        }
+      ],
+      "first_publication_lead_hours": -0.5889773411111111,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2023-10-19T13:20:20.3184280Z",
+        "day_ahead": "2023-10-18T12:00:00+02:00"
+      }
+    },
+    {
+      "event_id": "G090",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000015W",
+      "unit_name": "Forsmark block 1",
+      "zone": "SE3",
+      "entsoe_mrid": "hROCq3ZjqvUQeM7PJhFbvg",
+      "entsoe_source": "A77",
+      "realised_start": "2025-12-22T19:28:00+00:00",
+      "realised_end": "2025-12-24T09:30:00+00:00",
+      "reduction_mw": 1040.0,
+      "businesstype": "Unplanned outage",
+      "season": "winter",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "d102a701-cb6e-4f57-a1fa-6a98c04c6799"
+      ],
+      "versions": [
+        {
+          "messageId": "d102a701-cb6e-4f57-a1fa-6a98c04c6799",
+          "version": 1,
+          "publicationDate": "2025-12-22T21:19:40.1936420Z",
+          "event_start": "2025-12-22T19:28:00+00:00",
+          "event_stop": "2025-12-24T22:59:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "Actions to establish cold shut down are ongoing due to failure. Further information will be given when available."
+        },
+        {
+          "messageId": "d102a701-cb6e-4f57-a1fa-6a98c04c6799",
+          "version": 2,
+          "publicationDate": "2025-12-23T16:36:23.7349120Z",
+          "event_start": "2025-12-22T19:28:00+00:00",
+          "event_stop": "2026-01-07T08:00:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "Actions to restart after failure are ongoing, after connection to grid the power will increase to apporaximatley 930 MW within 48 hours. \nOperation at reduced power (930MW) will be established until the scheduled maintenance activities 2026-01-01. Power reduction is expected to begin in the morning on first of january 2026. \nAfter reconnection to the grid, normal operation is expected within approximately 30 hours."
+        },
+        {
+          "messageId": "d102a701-cb6e-4f57-a1fa-6a98c04c6799",
+          "version": 3,
+          "publicationDate": "2025-12-24T09:11:45.5553870Z",
+          "event_start": "2025-12-22T19:28:00+00:00",
+          "event_stop": "2026-01-07T08:00:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "Actions to restart are ongoing. After connection to grid the power will increase to apporaximatley 930 MW within 48 hours. \nOperation at reduced power (930MW) will be established until the scheduled maintenance activities 2026-01-01. Power reduction is expected to begin in the morning on first of january 2026. \nAfter reconnection to the grid, normal operation is expected within approximately 30 hours."
+        },
+        {
+          "messageId": "d102a701-cb6e-4f57-a1fa-6a98c04c6799",
+          "version": 4,
+          "publicationDate": "2026-01-05T11:51:56.0790140Z",
+          "event_start": "2025-12-22T19:28:00+00:00",
+          "event_stop": "2026-01-05T21:30:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "Event stop updated. Maintenance on turbine valve completed.\nAfter reconnection to the grid, normal operation is expected within approximately 45 hours.\n\nInitially, the power will be increased to 98% within app. 6 hours.\nAfter that, the power will be increased to 104% within  12-13. A\n decrease to 93%, app. 2-3h, will take place before the increase to 104%.\nWhen reaching 104%, the time to increase power from 104% to full power  is app. 24h\n"
+        },
+        {
+          "messageId": "d102a701-cb6e-4f57-a1fa-6a98c04c6799",
+          "version": 5,
+          "publicationDate": "2026-01-05T21:03:56.2583290Z",
+          "event_start": "2025-12-22T19:28:00+00:00",
+          "event_stop": "2026-01-06T00:30:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "Event stop updated. Maintenance on turbine valve completed.\nAfter reconnection to the grid, normal operation is expected within approximately 45 hours.\n\nInitially, the power will be increased to 98% within app. 6 hours.\nAfter that, the power will be increased to 104% within  12-13. A\n decrease to 93%, app. 2-3h, will take place before the increase to 104%.\nWhen reaching 104%, the time to increase power from 104% to full power  is app. 24h\n"
+        },
+        {
+          "messageId": "d102a701-cb6e-4f57-a1fa-6a98c04c6799",
+          "version": 6,
+          "publicationDate": "2026-01-06T00:35:54.2108800Z",
+          "event_start": "2025-12-22T19:28:00+00:00",
+          "event_stop": "2026-01-06T01:30:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "Event stop updated. Maintenance on turbine valve completed.\nAfter reconnection to the grid, normal operation is expected within approximately 45 hours.\n\nInitially, the power will be increased to 98% within app. 6 hours.\nAfter that, the power will be increased to 104% within  12-13. A\n decrease to 93%, app. 2-3h, will take place before the increase to 104%.\nWhen reaching 104%, the time to increase power from 104% to full power  is app. 24h\n"
+        }
+      ],
+      "first_publication_lead_hours": -1.8611649005555555,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2025-12-22T21:19:40.1936420Z",
+        "day_ahead": "2025-12-21T12:00:00+01:00"
+      }
+    },
+    {
+      "event_id": "G015",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000014Y",
+      "unit_name": "Ringhals 4",
+      "zone": "SE3",
+      "entsoe_mrid": "l4BJEp7gQERg9G-n-TgU2A",
+      "entsoe_source": "A77",
+      "realised_start": "2021-12-17T13:30:00+00:00",
+      "realised_end": "2021-12-19T05:00:00+00:00",
+      "reduction_mw": 1134.0,
+      "businesstype": "Planned maintenance",
+      "season": "winter",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "b61882a8-491b-4819-bf6d-843b43777dca"
+      ],
+      "versions": [
+        {
+          "messageId": "b61882a8-491b-4819-bf6d-843b43777dca",
+          "version": 1,
+          "publicationDate": "2021-12-08T10:00:19.6570560Z",
+          "event_start": "2021-12-18T05:00:00+00:00",
+          "event_stop": "2021-12-19T05:00:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "Power reduction starts at 02:00, 18.12.2021. Normal production expected during the afternoon on 19.12.2021."
+        },
+        {
+          "messageId": "b61882a8-491b-4819-bf6d-843b43777dca",
+          "version": 2,
+          "publicationDate": "2021-12-17T13:02:26.8554950Z",
+          "event_start": "2021-12-17T13:30:00+00:00",
+          "event_stop": "2021-12-18T13:30:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Power reduction moved forward due to previous failure, see earlier UMM https://umm.nordpoolgroup.com/#/messages/52bcdc6e-0f44-4635-a477-015ee78ad640/2\nContinued power reduction starts at 14:00, 17.12.2021. \nNormal production expected during the night 18.12.2021"
+        },
+        {
+          "messageId": "b61882a8-491b-4819-bf6d-843b43777dca",
+          "version": 3,
+          "publicationDate": "2021-12-18T08:29:57.9151500Z",
+          "event_start": "2021-12-17T13:30:00+00:00",
+          "event_stop": "2021-12-19T22:59:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Duration unknown"
+        },
+        {
+          "messageId": "b61882a8-491b-4819-bf6d-843b43777dca",
+          "version": 4,
+          "publicationDate": "2021-12-18T14:38:27.0265340Z",
+          "event_start": "2021-12-17T13:30:00+00:00",
+          "event_stop": "2021-12-19T01:00:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Startup sequence continues. Expected back on grid 2021-12-19 02:00. The power increase will be done by steps and normal production is expected during the evening 2021-12-19"
+        },
+        {
+          "messageId": "b61882a8-491b-4819-bf6d-843b43777dca",
+          "version": 5,
+          "publicationDate": "2021-12-19T00:46:51.6237560Z",
+          "event_start": "2021-12-17T13:30:00+00:00",
+          "event_stop": "2021-12-19T02:00:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Event stop updated. Expected back on grid 2021-12-19 03:00. The power increase will be done by steps and normal production is expected during the evening 2021-12-19"
+        },
+        {
+          "messageId": "b61882a8-491b-4819-bf6d-843b43777dca",
+          "version": 6,
+          "publicationDate": "2021-12-19T02:34:42.7735390Z",
+          "event_start": "2021-12-17T13:30:00+00:00",
+          "event_stop": "2021-12-19T05:00:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Event stop updated. Expected back on grid 2021-12-19 06:00. The power increase will be done by steps and normal production is expected during the evening 2021-12-19"
+        }
+      ],
+      "first_publication_lead_hours": 219.49453970666667,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2021-12-08T10:00:19.6570560Z",
+        "day_ahead": "2021-12-16T12:00:00+01:00"
+      }
+    },
+    {
+      "event_id": "G008",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000014Y",
+      "unit_name": "Ringhals 4",
+      "zone": "SE3",
+      "entsoe_mrid": "7___SHqxnBtPDek6RaDVsg",
+      "entsoe_source": "A77",
+      "realised_start": "2021-07-26T21:00:00+00:00",
+      "realised_end": "2021-09-09T16:00:00+00:00",
+      "reduction_mw": 1134.0,
+      "businesstype": "Planned maintenance",
+      "season": "summer",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "5c774185-e6d1-48a1-b05d-78d72704d0db"
+      ],
+      "versions": [
+        {
+          "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+          "version": 1,
+          "publicationDate": "2020-02-05T10:06:33.9335490Z",
+          "event_start": "2021-07-27T22:00:00+00:00",
+          "event_stop": "2021-09-05T21:59:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: \nNew UMM created due to updated installed capacity. Se cancelled UMM: https://umm.nordpoolgroup.com/#/messages/e5a77b8c-b8be-4aab-99f2-9d3d4b815f39/4 .\nActions planned: Refueling, projects and tests."
+        },
+        {
+          "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+          "version": 2,
+          "publicationDate": "2020-09-28T11:32:10.9006230Z",
+          "event_start": "2021-07-27T22:00:00+00:00",
+          "event_stop": "2021-09-09T21:59:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Yearly Outage is prolonged 2 days. \nActions planned: Refueling, projects and tests."
+        },
+        {
+          "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+          "version": 3,
+          "publicationDate": "2020-09-28T11:33:44.7863360Z",
+          "event_start": "2021-07-27T22:00:00+00:00",
+          "event_stop": "2021-09-09T21:59:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Yearly Outage is prolonged 4 days. \nActions planned: Refueling, projects and tests."
+        },
+        {
+          "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+          "version": 4,
+          "publicationDate": "2021-01-21T12:24:41.6073510Z",
+          "event_start": "2021-07-27T03:00:00+00:00",
+          "event_stop": "2021-09-09T21:59:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Ringhals 4 will start power decrease 27.07.2021 at 01:00 and maintain at 565 MW for approximately 20 hours. Further decrease will start 28.07.2021 at 01:00 with last turbine from grid 28.07.2021 at 05:00 \nActions planned: Refueling, projects and tests."
+        },
+        {
+          "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+          "version": 5,
+          "publicationDate": "2021-06-02T09:27:59.6623280Z",
+          "event_start": "2021-07-26T03:00:00+00:00",
+          "event_stop": "2021-09-08T21:59:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "Ringhals 4 will start power decrease 26.07.2021 at 01:00 and maintain at 565 MW for approximately 20 hours. Further decrease will start 27.07.2021 at 01:00 with last turbine from grid 27.07.2021 at 03:00.\nActions planned: Refueling, projects and tests."
+        },
+        {
+          "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+          "version": 6,
+          "publicationDate": "2021-06-15T10:15:08.9262830Z",
+          "event_start": "2021-07-26T03:00:00+00:00",
+          "event_stop": "2021-09-08T21:59:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "Updated power decrease regarding turbine 2. Ringhals 4 will start power decrease 26.07.2021 at 01:00 and maintain at 565 MW for approximately 18 hours. Further decrease will start 26.07.2021 at 23:00 with last turbine from grid 27.07.2021 at 03:00.\nActions planned: Large projects and inspections on the reactor side."
+        },
+        {
+          "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+          "version": 7,
+          "publicationDate": "2021-09-06T07:19:40.4531240Z",
+          "event_start": "2021-07-26T03:00:00+00:00",
+          "event_stop": "2021-09-09T16:00:00+00:00",
+          "unavailable_mw": 1130,
+          "remarks": "New information: Ringhals 4 is expected to be back on grid on September 9 at 18:00. Normal production is expected during the night between 10/9 and 11/9."
+        }
+      ],
+      "first_publication_lead_hours": 12898.890574014165,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2020-02-05T10:06:33.9335490Z",
+        "day_ahead": "2021-07-25T12:00:00+02:00"
+      }
+    },
+    {
+      "event_id": "G079",
+      "kind": "generation",
+      "unit_eic|pair": "46WPU0000000015W",
+      "unit_name": "Forsmark block 1",
+      "zone": "SE3",
+      "entsoe_mrid": "9JlsCvAO5xP59GWTgGlDgg",
+      "entsoe_source": "A77",
+      "realised_start": "2025-05-09T16:00:00+00:00",
+      "realised_end": "2025-05-17T04:00:00+00:00",
+      "reduction_mw": 1040.0,
+      "businesstype": "Planned maintenance",
+      "season": "spring",
+      "hydro_plausible": true,
+      "umm_thread_ids": [
+        "f469a061-1fca-4661-90d0-a5a84c313d1c"
+      ],
+      "versions": [
+        {
+          "messageId": "f469a061-1fca-4661-90d0-a5a84c313d1c",
+          "version": 1,
+          "publicationDate": "2025-03-24T14:01:39.7388600Z",
+          "event_start": "2025-05-07T04:00:00+00:00",
+          "event_stop": "2025-05-16T01:00:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "Forsmark 1 will decrease its production from 1104MW to 603 MW  to localize the fuel leakage. From 08.05.2025 16:00 to 10.05.2025 21:00 Forsmark 1 will be avalible for production but restricted by the NUCS. At 10.05.2025 21:00 we will disconnect from grid and change damaged fuel element. We will be availible for production at 16.05.2025 3:00. Ramping up to normal operation will take aprox. 2 days considering the NUCS."
+        },
+        {
+          "messageId": "f469a061-1fca-4661-90d0-a5a84c313d1c",
+          "version": 2,
+          "publicationDate": "2025-05-05T09:50:15.3786690Z",
+          "event_start": "2025-05-07T15:00:00+00:00",
+          "event_stop": "2025-05-16T01:00:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "UMM updated due to updated NUCS and additional maintenance.\nForsmark 1 will decrease its production from 1104MW to 603 MW  to localize the fuel leakage. From 09.05.2025 06:00 to 09.05.2025 18:00 Forsmark 1 will be avalible for production but restricted by the NUCS. At 09.05.2025 18:00 we will disconnect from grid and change damaged fuel element. We will be availible for production at 16.05.2025 17:00. Ramping up to normal operation will take aprox. 2 days considering the NUCS."
+        },
+        {
+          "messageId": "f469a061-1fca-4661-90d0-a5a84c313d1c",
+          "version": 3,
+          "publicationDate": "2025-05-05T11:50:09.4161380Z",
+          "event_start": "2025-05-07T15:00:00+00:00",
+          "event_stop": "2025-05-16T15:00:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "UMM updated with new Event stopp time from (16.05.2025) 03:00 to 17:00.\nForsmark 1 will decrease its production from 1104MW to 603 MW  to localize the fuel leakage. From 09.05.2025 06:00 to 09.05.2025 18:00 Forsmark 1 will be avalible for production but restricted by the NUCS. At 09.05.2025 18:00 we will disconnect from grid and change damaged fuel element. We will be availible for production at 16.05.2025 17:00. Ramping up to normal operation will take aprox. 2 days considering the NUCS."
+        },
+        {
+          "messageId": "f469a061-1fca-4661-90d0-a5a84c313d1c",
+          "version": 4,
+          "publicationDate": "2025-05-07T16:21:09.4262780Z",
+          "event_start": "2025-05-07T15:00:00+00:00",
+          "event_stop": "2025-05-16T15:00:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "UMM updated with new Event stopp time from (16.05.2025) 03:00 to 17:00.\nForsmark 1 will decrease its production from 1104MW to 603 MW  to localize the fuel leakage. From 09.05.2025 06:00 to 09.05.2025 18:00 Forsmark 1 will be avalible for production but restricted by the NUCS. At 09.05.2025 18:00 we will disconnect from grid and change damaged fuel element. We will be availible for production at 16.05.2025 17:00. Ramping up to normal operation will take aprox. 2 days considering the NUCS."
+        },
+        {
+          "messageId": "f469a061-1fca-4661-90d0-a5a84c313d1c",
+          "version": 5,
+          "publicationDate": "2025-05-08T07:55:59.7685910Z",
+          "event_start": "2025-05-07T15:00:00+00:00",
+          "event_stop": "2025-05-16T15:00:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "UMM updated with new Event stopp time from (16.05.2025) 03:00 to 17:00.\nForsmark 1 will decrease its production from 1104MW to 603-480 MW  to localize the fuel leakage. From 09.05.2025 06:00 to 09.05.2025 18:00 Forsmark 1 will be avalible for production but restricted by the NUCS. At 09.05.2025 18:00 we will disconnect from grid and change damaged fuel element. We will be availible for production at 16.05.2025 17:00. Ramping up to normal operation will take aprox. 2 days considering the NUCS."
+        },
+        {
+          "messageId": "f469a061-1fca-4661-90d0-a5a84c313d1c",
+          "version": 6,
+          "publicationDate": "2025-05-08T16:04:29.7444910Z",
+          "event_start": "2025-05-07T15:00:00+00:00",
+          "event_stop": "2025-05-16T15:00:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "UMM updated with new Event stopp time from (16.05.2025) 03:00 to 17:00.\nForsmark 1 will decrease its production from 1104MW to 603-480-603 MW  to localize the fuel leakage. From 09.05.2025 06:00 to 09.05.2025 18:00 Forsmark 1 will be avalible for production but restricted by the NUCS. At 09.05.2025 18:00 we will disconnect from grid and change damaged fuel element. We will be availible for production at 16.05.2025 17:00. Ramping up to normal operation will take aprox. 2 days considering the NUCS."
+        },
+        {
+          "messageId": "f469a061-1fca-4661-90d0-a5a84c313d1c",
+          "version": 7,
+          "publicationDate": "2025-05-16T02:32:23.5088940Z",
+          "event_start": "2025-05-07T15:00:00+00:00",
+          "event_stop": "2025-05-16T21:59:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "UMM updated with new event stop time  due to need of extra maintenance has been identified.\nRamping up to normal operation will take aprox. 2 days ."
+        },
+        {
+          "messageId": "f469a061-1fca-4661-90d0-a5a84c313d1c",
+          "version": 8,
+          "publicationDate": "2025-05-16T14:38:58.8036020Z",
+          "event_start": "2025-05-07T15:00:00+00:00",
+          "event_stop": "2025-05-17T04:00:00+00:00",
+          "unavailable_mw": 1104,
+          "remarks": "UMM updated with new event stop time. Extra time needed during startup phase.\nRamping up to normal operation will take aprox. 2 days ."
+        }
+      ],
+      "first_publication_lead_hours": 1105.9722947611112,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2025-03-24T14:01:39.7388600Z",
+        "day_ahead": "2025-05-08T12:00:00+02:00"
+      }
+    },
+    {
+      "event_id": "T060",
+      "kind": "transmission",
+      "unit_eic|pair": "fi_se3",
+      "unit_name": "FI \u2192 SE3",
+      "zone": "SE3",
+      "entsoe_mrid": "LHBS2_wAf2zbcrP_D25JCA",
+      "entsoe_source": "A78",
+      "realised_start": "2023-11-29T00:25:00+00:00",
+      "realised_end": "2023-12-04T22:59:00+00:00",
+      "reduction_mw": 1200.0,
+      "businesstype": "Unplanned outage",
+      "season": "autumn",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "bc529a40-24d1-45ae-8b04-3514126e5858"
+      ],
+      "versions": [
+        {
+          "messageId": "bc529a40-24d1-45ae-8b04-3514126e5858",
+          "version": 1,
+          "publicationDate": "2023-11-29T01:27:51.0000000Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-11-30T22:59:00+00:00",
+          "unavailable_mw": 1200,
+          "remarks": "Failure."
+        },
+        {
+          "messageId": "bc529a40-24d1-45ae-8b04-3514126e5858",
+          "version": 2,
+          "publicationDate": "2023-11-29T07:09:12.0000000Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-11-30T22:59:00+00:00",
+          "unavailable_mw": 1200,
+          "remarks": "Failure. Updated capacities."
+        },
+        {
+          "messageId": "bc529a40-24d1-45ae-8b04-3514126e5858",
+          "version": 3,
+          "publicationDate": "2023-11-30T06:02:25.0000000Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-12-01T22:59:00+00:00",
+          "unavailable_mw": 1200,
+          "remarks": "Failure. Updated capacities.\nEnd time uncertain."
+        },
+        {
+          "messageId": "bc529a40-24d1-45ae-8b04-3514126e5858",
+          "version": 4,
+          "publicationDate": "2023-11-30T08:29:35.0000000Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-12-02T22:59:00+00:00",
+          "unavailable_mw": 1200,
+          "remarks": "Failure. Updated capacities.\nEnd time uncertain."
+        },
+        {
+          "messageId": "bc529a40-24d1-45ae-8b04-3514126e5858",
+          "version": 5,
+          "publicationDate": "2023-12-01T18:11:01.0000000Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-12-03T22:59:00+00:00",
+          "unavailable_mw": 1200,
+          "remarks": "Failure. Updated capacities.\nEnd time uncertain."
+        },
+        {
+          "messageId": "bc529a40-24d1-45ae-8b04-3514126e5858",
+          "version": 6,
+          "publicationDate": "2023-12-02T10:48:29.0000000Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-12-04T22:59:00+00:00",
+          "unavailable_mw": 1200,
+          "remarks": "Failure. Updated capacities.\nEnd time uncertain."
+        },
+        {
+          "messageId": "bc529a40-24d1-45ae-8b04-3514126e5858",
+          "version": 7,
+          "publicationDate": "2023-12-03T07:04:45.0000000Z",
+          "event_start": "2023-11-29T00:25:00+00:00",
+          "event_stop": "2023-12-04T22:59:00+00:00",
+          "unavailable_mw": 1200,
+          "remarks": "Failure. Updated capacities.\nEnd time uncertain."
+        }
+      ],
+      "first_publication_lead_hours": -1.0475,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2023-11-29T01:27:51.0000000Z",
+        "day_ahead": "2023-11-28T12:00:00+01:00"
+      }
+    },
+    {
+      "event_id": "T065",
+      "kind": "transmission",
+      "unit_eic|pair": "fi_se3",
+      "unit_name": "FI \u2192 SE3",
+      "zone": "SE3",
+      "entsoe_mrid": "yp9pIjhDtVm4QRR8yTRTsQ",
+      "entsoe_source": "A78",
+      "realised_start": "2024-06-18T15:00:00+00:00",
+      "realised_end": "2024-06-27T21:59:00+00:00",
+      "reduction_mw": 1100.0,
+      "businesstype": "Unplanned outage",
+      "season": "summer",
+      "hydro_plausible": true,
+      "umm_thread_ids": [
+        "f2578225-b470-4b85-ae92-1e4ea03e0b36"
+      ],
+      "versions": [
+        {
+          "messageId": "f2578225-b470-4b85-ae92-1e4ea03e0b36",
+          "version": 1,
+          "publicationDate": "2024-06-17T15:43:09.0000000Z",
+          "event_start": "2024-06-18T15:00:00+00:00",
+          "event_stop": "2024-06-19T21:59:00+00:00",
+          "unavailable_mw": 1100,
+          "remarks": "Reduced capacity due to unplanned outage on Ringhals G42. Preliminary capacities: NTC capacitites expected to vary on Day-Ahead as follows: SE2>SE3: 5700-6300; SE3>SE4: 3800-4300; SE3>SE3A: 550-950; FI>SE3: 0-200 MW. The capacities depend on availability of remedial actions, ambient temperatures and expected load flow conditions."
+        },
+        {
+          "messageId": "f2578225-b470-4b85-ae92-1e4ea03e0b36",
+          "version": 2,
+          "publicationDate": "2024-06-19T13:54:23.0000000Z",
+          "event_start": "2024-06-18T15:00:00+00:00",
+          "event_stop": "2024-06-27T21:59:00+00:00",
+          "unavailable_mw": 1100,
+          "remarks": "Reduced capacity due to unplanned outage on Ringhals G42. Preliminary capacities: NTC capacitites expected to vary on Day-Ahead as follows: SE2>SE3: 5700-6300; SE3>SE4: 3800-4300; SE3>SE3A: 550-950; FI>SE3: 0-200 MW. The capacities depend on availability of remedial actions, ambient temperatures and expected load flow conditions. 2024-06-19: Updated end time."
+        }
+      ],
+      "first_publication_lead_hours": 23.280833333333334,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2024-06-17T15:43:09.0000000Z",
+        "day_ahead": "2024-06-17T12:00:00+02:00"
+      }
+    },
+    {
+      "event_id": "T069",
+      "kind": "transmission",
+      "unit_eic|pair": "fi_se3",
+      "unit_name": "FI \u2192 SE3",
+      "zone": "SE3",
+      "entsoe_mrid": "5IjfBKN_XHIO-wqx-y5JIQ",
+      "entsoe_source": "A78",
+      "realised_start": "2025-02-28T15:11:00+00:00",
+      "realised_end": "2025-03-31T21:59:00+00:00",
+      "reduction_mw": 1000.0,
+      "businesstype": "Unplanned outage",
+      "season": "winter",
+      "hydro_plausible": false,
+      "umm_thread_ids": [
+        "7d0432de-3b25-4165-81f9-556fe764a0bf"
+      ],
+      "versions": [
+        {
+          "messageId": "7d0432de-3b25-4165-81f9-556fe764a0bf",
+          "version": 1,
+          "publicationDate": "2025-02-28T15:13:47.0000000Z",
+          "event_start": null,
+          "event_stop": null,
+          "unavailable_mw": null,
+          "remarks": "Preliminary capacities, will depend on load flow conditions."
+        },
+        {
+          "messageId": "7d0432de-3b25-4165-81f9-556fe764a0bf",
+          "version": 2,
+          "publicationDate": "2025-03-01T06:42:28.0000000Z",
+          "event_start": null,
+          "event_stop": null,
+          "unavailable_mw": null,
+          "remarks": "Preliminary capacities, will depend on load flow conditions.\n\nUpdated end time."
+        },
+        {
+          "messageId": "7d0432de-3b25-4165-81f9-556fe764a0bf",
+          "version": 3,
+          "publicationDate": "2025-03-01T07:32:44.0000000Z",
+          "event_start": "2025-02-28T15:11:00+00:00",
+          "event_stop": "2025-03-14T22:59:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "Preliminary capacities, will depend on load flow conditions. Note that market coupling results on specific borders might end up significantly higher.\n\nUpdated preliminary capacities."
+        },
+        {
+          "messageId": "7d0432de-3b25-4165-81f9-556fe764a0bf",
+          "version": 4,
+          "publicationDate": "2025-03-06T12:46:14.0000000Z",
+          "event_start": "2025-02-28T15:11:00+00:00",
+          "event_stop": "2025-03-31T21:59:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "Preliminary capacities, will depend on load flow conditions. Note that market coupling results on specific borders might end up significantly higher.\n\nUpdated preliminary capacities."
+        }
+      ],
+      "first_publication_lead_hours": -0.04638888888888889,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2025-02-28T15:13:47.0000000Z",
+        "day_ahead": "2025-02-27T12:00:00+01:00"
+      }
+    },
+    {
+      "event_id": "T064",
+      "kind": "transmission",
+      "unit_eic|pair": "fi_se3",
+      "unit_name": "FI \u2192 SE3",
+      "zone": "SE3",
+      "entsoe_mrid": "fZcChUCZ2OdLkrQ4QqBbYg",
+      "entsoe_source": "A78",
+      "realised_start": "2024-05-10T19:08:00+00:00",
+      "realised_end": "2024-05-15T12:40:00+00:00",
+      "reduction_mw": 1000.0,
+      "businesstype": "Unplanned outage",
+      "season": "spring",
+      "hydro_plausible": true,
+      "umm_thread_ids": [
+        "e713d6b1-4d81-451b-be41-e59773038511"
+      ],
+      "versions": [
+        {
+          "messageId": "e713d6b1-4d81-451b-be41-e59773038511",
+          "version": 1,
+          "publicationDate": "2024-05-10T19:39:54.0000000Z",
+          "event_start": "2024-05-10T19:08:00+00:00",
+          "event_stop": "2024-05-11T21:59:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "End time is preliminary,"
+        },
+        {
+          "messageId": "e713d6b1-4d81-451b-be41-e59773038511",
+          "version": 2,
+          "publicationDate": "2024-05-11T05:13:20.0000000Z",
+          "event_start": "2024-05-10T19:08:00+00:00",
+          "event_stop": "2024-05-12T21:59:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "End time is preliminary."
+        },
+        {
+          "messageId": "e713d6b1-4d81-451b-be41-e59773038511",
+          "version": 3,
+          "publicationDate": "2024-05-11T10:23:10.0000000Z",
+          "event_start": "2024-05-10T19:08:00+00:00",
+          "event_stop": "2024-05-13T21:59:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "End time is preliminary."
+        },
+        {
+          "messageId": "e713d6b1-4d81-451b-be41-e59773038511",
+          "version": 4,
+          "publicationDate": "2024-05-11T11:18:45.0000000Z",
+          "event_start": "2024-05-10T19:08:00+00:00",
+          "event_stop": "2024-05-14T21:59:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "End time is preliminary."
+        },
+        {
+          "messageId": "e713d6b1-4d81-451b-be41-e59773038511",
+          "version": 5,
+          "publicationDate": "2024-05-11T15:50:27.0000000Z",
+          "event_start": "2024-05-10T19:08:00+00:00",
+          "event_stop": "2024-05-14T21:59:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "End time is preliminary."
+        },
+        {
+          "messageId": "e713d6b1-4d81-451b-be41-e59773038511",
+          "version": 6,
+          "publicationDate": "2024-05-13T08:44:35.0000000Z",
+          "event_start": "2024-05-10T19:08:00+00:00",
+          "event_stop": "2024-05-14T21:59:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "Updated capacities.\nEnd time is preliminary."
+        },
+        {
+          "messageId": "e713d6b1-4d81-451b-be41-e59773038511",
+          "version": 7,
+          "publicationDate": "2024-05-14T13:26:53.0000000Z",
+          "event_start": "2024-05-10T19:08:00+00:00",
+          "event_stop": "2024-05-15T21:59:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "Updated end time, preliminary."
+        },
+        {
+          "messageId": "e713d6b1-4d81-451b-be41-e59773038511",
+          "version": 8,
+          "publicationDate": "2024-05-15T12:51:22.0000000Z",
+          "event_start": "2024-05-10T19:08:00+00:00",
+          "event_stop": "2024-05-15T12:40:00+00:00",
+          "unavailable_mw": 1000,
+          "remarks": "Updated end time, preliminary."
+        }
+      ],
+      "first_publication_lead_hours": -0.5316666666666666,
+      "revision_surprise": true,
+      "t0_candidates": {
+        "announcement": "2024-05-10T19:39:54.0000000Z",
+        "day_ahead": "2024-05-09T12:00:00+02:00"
+      }
+    }
+  ]
+}

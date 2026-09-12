@@ -1,0 +1,13 @@
+Event: G015 (Ringhals 4, generation)
+Message: b61882a8-491b-4819-bf6d-843b43777dca version 3
+Published: 2021-12-18T08:29:57.9151500Z
+Unavailability type: Planned
+Reason code: Foreseen maintenance
+Unavailability reason: Delay in startup due to secondary chemistry parameters
+
+Time periods:
+  Unit/border: Ringhals Block4
+    2021-12-17T13:30:00.0000000Z -> 2021-12-19T22:59:00.0000000Z: unavailable 1130 MW, available 0 MW
+
+Remarks:
+New information: Duration unknown

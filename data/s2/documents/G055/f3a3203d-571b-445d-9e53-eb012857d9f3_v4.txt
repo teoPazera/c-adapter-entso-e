@@ -1,0 +1,13 @@
+Event: G055 (Ringhals 4, generation)
+Message: f3a3203d-571b-445d-9e53-eb012857d9f3 version 4
+Published: 2023-12-03T17:07:45.2632520Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Reactor scram due to valve failure.
+
+Time periods:
+  Unit/border: Ringhals Block4
+    2023-11-29T00:25:00.0000000Z -> 2023-12-04T02:00:00.0000000Z: unavailable 1130 MW, available 0 MW
+
+Remarks:
+New information: Updated event stop. After the event stop Ringhals 4 will be technically available. Normal production can be reached in 20 hours.

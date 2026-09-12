@@ -1,0 +1,64 @@
+{
+  "messageType": 1,
+  "isOutdated": false,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "unavailabilityReason": "Reactor trip",
+  "remarks": "Turbine 22 is expected to be back on grid 27.08.2021 at 15:30. Start up with turbine 21 is ongoing. Then power will be increased to 885MW in the evening. 20 hours later power slowly will be increased to full power. Full power is expected in the morning 2021-08-30.",
+  "productionUnits": [
+    {
+      "name": "Forsmark Block2",
+      "eic": "46WPU0000000016U",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1118,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1118,
+          "availableCapacity": 0,
+          "eventStart": "2021-08-23T00:25:00.0000000Z",
+          "eventStop": "2021-08-27T13:30:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    },
+    {
+      "name": "Fortum Sverige AB",
+      "code": "A0000925O.SE",
+      "acerCode": "A0000925O.SE",
+      "eicCode": "46X000000000018V",
+      "leiCode": "635400CYQ5DSSFPDVV50"
+    },
+    {
+      "name": "Skellefte\u00e5 Kraft AB",
+      "code": "A0001903T.SE",
+      "acerCode": "A0001903T.SE",
+      "eicCode": "46X000000000010A",
+      "leiCode": "549300XZX64WBNX25B71"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "d6f5646d-55da-444e-a696-9661986bb327",
+  "version": 6,
+  "publicationDate": "2021-08-27T12:52:35.8549660Z",
+  "publisherId": "N01256",
+  "publisherName": "Forsmarks Kraftgrupp AB",
+  "acerRssMessageIds": [
+    "EUIMSG-6Q8U61S9GMYA3ECYH4_006"
+  ]
+}

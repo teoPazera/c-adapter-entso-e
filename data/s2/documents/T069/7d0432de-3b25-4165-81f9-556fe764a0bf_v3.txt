@@ -1,0 +1,45 @@
+Event: T069 (FI → SE3, transmission)
+Message: 7d0432de-3b25-4165-81f9-556fe764a0bf version 3
+Published: 2025-03-01T07:32:44.0000000Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Ringhals G31
+
+Time periods:
+  Unit/border: SE3 → SE3A
+    2025-02-28T15:11:00.0000000Z -> 2025-02-28T15:15:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-02-28T15:15:00.0000000Z -> 2025-02-28T15:30:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-02-28T15:30:00.0000000Z -> 2025-02-28T16:00:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-02-28T16:00:00.0000000Z -> 2025-03-14T22:00:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-03-14T22:00:00.0000000Z -> 2025-03-14T22:30:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-03-14T22:30:00.0000000Z -> 2025-03-14T22:45:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-03-14T22:45:00.0000000Z -> 2025-03-14T22:59:00.0000000Z: unavailable 2060 MW, available 750 MW
+  Unit/border: FI → SE3
+    2025-02-28T15:11:00.0000000Z -> 2025-02-28T15:15:00.0000000Z: unavailable 1000 MW, available 200 MW
+    2025-02-28T15:15:00.0000000Z -> 2025-02-28T15:30:00.0000000Z: unavailable 1000 MW, available 200 MW
+    2025-02-28T15:30:00.0000000Z -> 2025-02-28T16:00:00.0000000Z: unavailable 1000 MW, available 200 MW
+    2025-02-28T16:00:00.0000000Z -> 2025-03-14T22:00:00.0000000Z: unavailable 1000 MW, available 200 MW
+    2025-03-14T22:00:00.0000000Z -> 2025-03-14T22:30:00.0000000Z: unavailable 1000 MW, available 200 MW
+    2025-03-14T22:30:00.0000000Z -> 2025-03-14T22:45:00.0000000Z: unavailable 1000 MW, available 200 MW
+    2025-03-14T22:45:00.0000000Z -> 2025-03-14T22:59:00.0000000Z: unavailable 1000 MW, available 200 MW
+  Unit/border: SE2 → SE3
+    2025-02-28T15:11:00.0000000Z -> 2025-02-28T15:15:00.0000000Z: unavailable 1000 MW, available 6300 MW
+    2025-02-28T15:15:00.0000000Z -> 2025-02-28T15:30:00.0000000Z: unavailable 1000 MW, available 6300 MW
+    2025-02-28T15:30:00.0000000Z -> 2025-02-28T16:00:00.0000000Z: unavailable 1000 MW, available 6300 MW
+    2025-02-28T16:00:00.0000000Z -> 2025-03-14T22:00:00.0000000Z: unavailable 1000 MW, available 6300 MW
+    2025-03-14T22:00:00.0000000Z -> 2025-03-14T22:30:00.0000000Z: unavailable 1000 MW, available 6300 MW
+    2025-03-14T22:30:00.0000000Z -> 2025-03-14T22:45:00.0000000Z: unavailable 1000 MW, available 6300 MW
+    2025-03-14T22:45:00.0000000Z -> 2025-03-14T22:59:00.0000000Z: unavailable 1000 MW, available 6300 MW
+  Unit/border: SE3 → SE4
+    2025-02-28T15:11:00.0000000Z -> 2025-02-28T15:15:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-02-28T15:15:00.0000000Z -> 2025-02-28T15:30:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-02-28T15:30:00.0000000Z -> 2025-02-28T16:00:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-02-28T16:00:00.0000000Z -> 2025-03-14T22:00:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-03-14T22:00:00.0000000Z -> 2025-03-14T22:30:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-03-14T22:30:00.0000000Z -> 2025-03-14T22:45:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-03-14T22:45:00.0000000Z -> 2025-03-14T22:59:00.0000000Z: unavailable 1800 MW, available 4400 MW
+
+Remarks:
+Preliminary capacities, will depend on load flow conditions. Note that market coupling results on specific borders might end up significantly higher.
+
+Updated preliminary capacities.

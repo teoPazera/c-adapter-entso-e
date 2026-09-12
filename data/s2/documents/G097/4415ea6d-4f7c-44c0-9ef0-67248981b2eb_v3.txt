@@ -1,0 +1,13 @@
+Event: G097 (Forsmark block 3, generation)
+Message: 4415ea6d-4f7c-44c0-9ef0-67248981b2eb version 3
+Published: 2026-04-10T13:17:21.1114290Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Troubleshooting and actions on turbineregulator
+
+Time periods:
+  Unit/border: Forsmark Block3
+    2026-04-09T01:00:00.0000000Z -> 2026-04-10T18:00:00.0000000Z: unavailable 1172 MW, available 0 MW
+
+Remarks:
+Full power expected within 3 days after reconnected to the grid.

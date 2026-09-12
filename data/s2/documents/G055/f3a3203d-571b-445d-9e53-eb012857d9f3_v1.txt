@@ -1,0 +1,13 @@
+Event: G055 (Ringhals 4, generation)
+Message: f3a3203d-571b-445d-9e53-eb012857d9f3 version 1
+Published: 2023-11-29T01:02:49.2618010Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Duration unknown
+
+Time periods:
+  Unit/border: Ringhals Block4
+    2023-11-29T00:25:00.0000000Z -> 2023-11-30T22:59:00.0000000Z: unavailable 1130 MW, available 0 MW
+
+Remarks:
+Failure, duration unknown. Further information will be given when available.

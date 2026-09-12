@@ -1,0 +1,50 @@
+{
+  "messageType": 1,
+  "isOutdated": true,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "unavailabilityReason": "Reactor trip.",
+  "remarks": "Further investigations needed. More information will be given when available.",
+  "productionUnits": [
+    {
+      "name": "Ringhals block 3",
+      "eic": "46WPU00000000121",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1074,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1074,
+          "availableCapacity": 0,
+          "eventStart": "2022-01-06T20:28:00.0000000Z",
+          "eventStop": "2022-01-10T22:59:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "3b377b48-5d7a-4549-acce-bbfbeadc4cb4",
+  "version": 2,
+  "publicationDate": "2022-01-08T08:51:29.0360460Z",
+  "publisherId": "N02101",
+  "publisherName": "Ringhals AB",
+  "acerRssMessageIds": [
+    "EUIMSG-8QXEEOQA8BW5YVV6LH_002"
+  ]
+}

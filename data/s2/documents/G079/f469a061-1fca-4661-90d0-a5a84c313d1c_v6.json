@@ -1,0 +1,88 @@
+{
+  "messageType": 1,
+  "isOutdated": true,
+  "unavailabilityType": 2,
+  "reasonCode": 2,
+  "unavailabilityReason": "Due to restrictions in production from SvK (NUCS message ID:  NU_5k4HopL1jdzAbfvErr-0XA_003 and NU_YTvR-ixzidNCTdFoibCrig_001), Forsmark 1 and 2 must decrease its production to aprox. 55%. FKA has made the decision to stop Forsmark 1 during this time to localize and change a leaking fuel element. ",
+  "remarks": "UMM updated with new Event stopp time from (16.05.2025) 03:00 to 17:00.\nForsmark 1 will decrease its production from 1104MW to 603-480-603 MW  to localize the fuel leakage. From 09.05.2025 06:00 to 09.05.2025 18:00 Forsmark 1 will be avalible for production but restricted by the NUCS. At 09.05.2025 18:00 we will disconnect from grid and change damaged fuel element. We will be availible for production at 16.05.2025 17:00. Ramping up to normal operation will take aprox. 2 days considering the NUCS.",
+  "productionUnits": [
+    {
+      "name": "Forsmark Block1",
+      "eic": "46WPU0000000015W",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1104,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 501,
+          "availableCapacity": 603,
+          "eventStart": "2025-05-07T15:00:00.0000000Z",
+          "eventStop": "2025-05-08T08:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 624,
+          "availableCapacity": 480,
+          "eventStart": "2025-05-08T08:00:00.0000000Z",
+          "eventStop": "2025-05-08T16:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 501,
+          "availableCapacity": 603,
+          "eventStart": "2025-05-08T16:00:00.0000000Z",
+          "eventStop": "2025-05-09T03:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 824,
+          "availableCapacity": 280,
+          "eventStart": "2025-05-09T03:00:00.0000000Z",
+          "eventStop": "2025-05-09T16:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1104,
+          "availableCapacity": 0,
+          "eventStart": "2025-05-09T16:00:00.0000000Z",
+          "eventStop": "2025-05-16T15:00:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    },
+    {
+      "name": "Fortum Sverige AB",
+      "code": "A0000925O.SE",
+      "acerCode": "A0000925O.SE",
+      "eicCode": "46X000000000018V",
+      "leiCode": "635400CYQ5DSSFPDVV50"
+    },
+    {
+      "name": "Skellefte\u00e5 Kraft AB",
+      "code": "A0001903T.SE",
+      "acerCode": "A0001903T.SE",
+      "eicCode": "46X000000000010A",
+      "leiCode": "549300XZX64WBNX25B71"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "f469a061-1fca-4661-90d0-a5a84c313d1c",
+  "version": 6,
+  "publicationDate": "2025-05-08T16:04:29.7444910Z",
+  "publisherId": "N01256",
+  "publisherName": "Forsmarks Kraftgrupp AB",
+  "acerRssMessageIds": [
+    "EUIMSG-WAEZ5FJ1N3B81MX8LJ_006"
+  ]
+}

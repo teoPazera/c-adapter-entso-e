@@ -1,0 +1,14 @@
+Event: G016 (Ringhals 3, generation)
+Message: fd77deeb-a2ee-4edc-980e-69121e984459 version 3
+Published: 2021-12-31T19:48:27.8001970Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Reactor trip.
+
+Time periods:
+  Unit/border: Ringhals block 3
+    2021-12-29T17:15:00.0000000Z -> 2022-01-01T05:00:00.0000000Z: unavailable 1074 MW, available 0 MW
+
+Remarks:
+New information: Event stop updated.
+Normal production is expected during the Noon 02.01.2022

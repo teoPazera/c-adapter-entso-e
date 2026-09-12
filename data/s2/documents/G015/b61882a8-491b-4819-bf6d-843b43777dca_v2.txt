@@ -1,0 +1,15 @@
+Event: G015 (Ringhals 4, generation)
+Message: b61882a8-491b-4819-bf6d-843b43777dca version 2
+Published: 2021-12-17T13:02:26.8554950Z
+Unavailability type: Planned
+Reason code: Foreseen maintenance
+Unavailability reason: The plant will temporarily be taken out of operation for valve tests.
+
+Time periods:
+  Unit/border: Ringhals Block4
+    2021-12-17T13:30:00.0000000Z -> 2021-12-18T13:30:00.0000000Z: unavailable 1130 MW, available 0 MW
+
+Remarks:
+New information: Power reduction moved forward due to previous failure, see earlier UMM https://umm.nordpoolgroup.com/#/messages/52bcdc6e-0f44-4635-a477-015ee78ad640/2
+Continued power reduction starts at 14:00, 17.12.2021. 
+Normal production expected during the night 18.12.2021

@@ -1,0 +1,64 @@
+{
+  "messageType": 1,
+  "isOutdated": false,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "unavailabilityReason": "Fuel repair",
+  "remarks": "Back on grid 22/3 02:00.\n1000MW between 22/3 morning and 23/3 evening.\nFull power 24/3 morning.",
+  "productionUnits": [
+    {
+      "name": "Forsmark Block3",
+      "eic": "46WPU0000000017S",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1172,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1172,
+          "availableCapacity": 0,
+          "eventStart": "2024-03-16T16:00:00.0000000Z",
+          "eventStop": "2024-03-22T01:00:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    },
+    {
+      "name": "Fortum Sverige AB",
+      "code": "A0000925O.SE",
+      "acerCode": "A0000925O.SE",
+      "eicCode": "46X000000000018V",
+      "leiCode": "635400CYQ5DSSFPDVV50"
+    },
+    {
+      "name": "Skellefte\u00e5 Kraft AB",
+      "code": "A0001903T.SE",
+      "acerCode": "A0001903T.SE",
+      "eicCode": "46X000000000010A",
+      "leiCode": "549300XZX64WBNX25B71"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "b48cda90-bc24-4227-b981-eb36c103079a",
+  "version": 3,
+  "publicationDate": "2024-03-21T21:45:53.8403830Z",
+  "publisherId": "N01256",
+  "publisherName": "Forsmarks Kraftgrupp AB",
+  "acerRssMessageIds": [
+    "EUIMSG-RWU0R8CGVY9ZH18GBL_003"
+  ]
+}

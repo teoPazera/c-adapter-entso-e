@@ -1,0 +1,13 @@
+Event: G010 (Forsmark block 2, generation)
+Message: d6f5646d-55da-444e-a696-9661986bb327 version 6
+Published: 2021-08-27T12:52:35.8549660Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Reactor trip
+
+Time periods:
+  Unit/border: Forsmark Block2
+    2021-08-23T00:25:00.0000000Z -> 2021-08-27T13:30:00.0000000Z: unavailable 1118 MW, available 0 MW
+
+Remarks:
+Turbine 22 is expected to be back on grid 27.08.2021 at 15:30. Start up with turbine 21 is ongoing. Then power will be increased to 885MW in the evening. 20 hours later power slowly will be increased to full power. Full power is expected in the morning 2021-08-30.

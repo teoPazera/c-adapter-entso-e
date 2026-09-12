@@ -1,0 +1,57 @@
+{
+  "messageType": 1,
+  "isOutdated": true,
+  "unavailabilityType": 2,
+  "reasonCode": 2,
+  "unavailabilityReason": "Yearly maintenance.",
+  "remarks": "Ringhals 4 will start power decrease 26.07.2021 at 01:00 and maintain at 565 MW for approximately 20 hours. Further decrease will start 27.07.2021 at 01:00 with last turbine from grid 27.07.2021 at 03:00.\nActions planned: Refueling, projects and tests.",
+  "productionUnits": [
+    {
+      "name": "Ringhals Block4",
+      "eic": "46WPU0000000014Y",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1130,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 565,
+          "availableCapacity": 565,
+          "eventStart": "2021-07-26T03:00:00.0000000Z",
+          "eventStop": "2021-07-26T23:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1130,
+          "availableCapacity": 0,
+          "eventStart": "2021-07-26T23:00:00.0000000Z",
+          "eventStop": "2021-09-08T21:59:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+  "version": 5,
+  "publicationDate": "2021-06-02T09:27:59.6623280Z",
+  "publisherId": "N02101",
+  "publisherName": "Ringhals AB",
+  "acerRssMessageIds": [
+    "EUIMSG-GC2D35FPSXQ6VCTSLM_004",
+    "EUIMSG-A81V0FNRRUTLZCL6UX_002"
+  ]
+}

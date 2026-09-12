@@ -1,0 +1,50 @@
+{
+  "messageType": 1,
+  "isOutdated": true,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "unavailabilityReason": "Duration unknown",
+  "remarks": "Failure, duration unknown. Further information will be given when available.",
+  "productionUnits": [
+    {
+      "name": "Ringhals Block4",
+      "eic": "46WPU0000000014Y",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1130,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1130,
+          "availableCapacity": 0,
+          "eventStart": "2023-11-29T00:25:00.0000000Z",
+          "eventStop": "2023-11-30T22:59:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "f3a3203d-571b-445d-9e53-eb012857d9f3",
+  "version": 1,
+  "publicationDate": "2023-11-29T01:02:49.2618010Z",
+  "publisherId": "N02101",
+  "publisherName": "Ringhals AB",
+  "acerRssMessageIds": [
+    "EUIMSG-HVVXXY1UDWXLM73HL6_001"
+  ]
+}

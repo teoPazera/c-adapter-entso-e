@@ -1,0 +1,246 @@
+{
+  "messageType": 3,
+  "isOutdated": false,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "eventStart": "2025-02-28T15:11:00.0000000Z",
+  "eventStop": "2025-03-31T21:59:00.0000000Z",
+  "unavailabilityReason": "Ringhals G31",
+  "remarks": "Preliminary capacities, will depend on load flow conditions. Note that market coupling results on specific borders might end up significantly higher.\n\nUpdated preliminary capacities.",
+  "transmissionUnits": [
+    {
+      "name": "SE3 \u2192 SE3A",
+      "inAreaEic": "10Y1001A1001A46L",
+      "inAreaName": "SE3",
+      "outAreaEic": "10Y1001C--00148Q",
+      "outAreaName": "SE3A",
+      "installedCapacity": 2810,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 2060,
+          "availableCapacity": 750,
+          "eventStart": "2025-02-28T15:11:00.0000000Z",
+          "eventStop": "2025-02-28T15:15:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2060,
+          "availableCapacity": 750,
+          "eventStart": "2025-02-28T15:15:00.0000000Z",
+          "eventStop": "2025-02-28T15:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2060,
+          "availableCapacity": 750,
+          "eventStart": "2025-02-28T15:30:00.0000000Z",
+          "eventStop": "2025-02-28T16:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2060,
+          "availableCapacity": 750,
+          "eventStart": "2025-02-28T16:00:00.0000000Z",
+          "eventStop": "2025-03-31T21:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2060,
+          "availableCapacity": 750,
+          "eventStart": "2025-03-31T21:00:00.0000000Z",
+          "eventStop": "2025-03-31T21:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2060,
+          "availableCapacity": 750,
+          "eventStart": "2025-03-31T21:30:00.0000000Z",
+          "eventStop": "2025-03-31T21:45:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 2060,
+          "availableCapacity": 750,
+          "eventStart": "2025-03-31T21:45:00.0000000Z",
+          "eventStop": "2025-03-31T21:59:00.0000000Z"
+        }
+      ]
+    },
+    {
+      "name": "SE3 \u2192 SE4",
+      "inAreaEic": "10Y1001A1001A46L",
+      "inAreaName": "SE3",
+      "outAreaEic": "10Y1001A1001A47J",
+      "outAreaName": "SE4",
+      "installedCapacity": 6200,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1800,
+          "availableCapacity": 4400,
+          "eventStart": "2025-02-28T15:11:00.0000000Z",
+          "eventStop": "2025-02-28T15:15:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1800,
+          "availableCapacity": 4400,
+          "eventStart": "2025-02-28T15:15:00.0000000Z",
+          "eventStop": "2025-02-28T15:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1800,
+          "availableCapacity": 4400,
+          "eventStart": "2025-02-28T15:30:00.0000000Z",
+          "eventStop": "2025-02-28T16:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1800,
+          "availableCapacity": 4400,
+          "eventStart": "2025-02-28T16:00:00.0000000Z",
+          "eventStop": "2025-03-31T21:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1800,
+          "availableCapacity": 4400,
+          "eventStart": "2025-03-31T21:00:00.0000000Z",
+          "eventStop": "2025-03-31T21:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1800,
+          "availableCapacity": 4400,
+          "eventStart": "2025-03-31T21:30:00.0000000Z",
+          "eventStop": "2025-03-31T21:45:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1800,
+          "availableCapacity": 4400,
+          "eventStart": "2025-03-31T21:45:00.0000000Z",
+          "eventStop": "2025-03-31T21:59:00.0000000Z"
+        }
+      ]
+    },
+    {
+      "name": "FI \u2192 SE3",
+      "inAreaEic": "10YFI-1--------U",
+      "inAreaName": "FI",
+      "outAreaEic": "10Y1001A1001A46L",
+      "outAreaName": "SE3",
+      "installedCapacity": 1200,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 200,
+          "eventStart": "2025-02-28T15:11:00.0000000Z",
+          "eventStop": "2025-02-28T15:15:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 200,
+          "eventStart": "2025-02-28T15:15:00.0000000Z",
+          "eventStop": "2025-02-28T15:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 200,
+          "eventStart": "2025-02-28T15:30:00.0000000Z",
+          "eventStop": "2025-02-28T16:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 200,
+          "eventStart": "2025-02-28T16:00:00.0000000Z",
+          "eventStop": "2025-03-31T21:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 200,
+          "eventStart": "2025-03-31T21:00:00.0000000Z",
+          "eventStop": "2025-03-31T21:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 200,
+          "eventStart": "2025-03-31T21:30:00.0000000Z",
+          "eventStop": "2025-03-31T21:45:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 200,
+          "eventStart": "2025-03-31T21:45:00.0000000Z",
+          "eventStop": "2025-03-31T21:59:00.0000000Z"
+        }
+      ]
+    },
+    {
+      "name": "SE2 \u2192 SE3",
+      "inAreaEic": "10Y1001A1001A45N",
+      "inAreaName": "SE2",
+      "outAreaEic": "10Y1001A1001A46L",
+      "outAreaName": "SE3",
+      "installedCapacity": 7300,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 6300,
+          "eventStart": "2025-02-28T15:11:00.0000000Z",
+          "eventStop": "2025-02-28T15:15:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 6300,
+          "eventStart": "2025-02-28T15:15:00.0000000Z",
+          "eventStop": "2025-02-28T15:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 6300,
+          "eventStart": "2025-02-28T15:30:00.0000000Z",
+          "eventStop": "2025-02-28T16:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 6300,
+          "eventStart": "2025-02-28T16:00:00.0000000Z",
+          "eventStop": "2025-03-31T21:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 6300,
+          "eventStart": "2025-03-31T21:00:00.0000000Z",
+          "eventStop": "2025-03-31T21:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 6300,
+          "eventStart": "2025-03-31T21:30:00.0000000Z",
+          "eventStop": "2025-03-31T21:45:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1000,
+          "availableCapacity": 6300,
+          "eventStart": "2025-03-31T21:45:00.0000000Z",
+          "eventStop": "2025-03-31T21:59:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "name": "Operational Security SE3",
+      "code": "46TAC0000000162S"
+    }
+  ],
+  "marketParticipants": [
+    {
+      "name": "NUCS",
+      "code": "10V1001C--000187",
+      "acerCode": "000000000.00",
+      "eicCode": "10V1001C--000187"
+    },
+    {
+      "name": "Aff\u00e4rsverket svenska kraftn\u00e4t",
+      "code": "10X1001A1001A418",
+      "acerCode": "A00000355.SE",
+      "eicCode": "10X1001A1001A418"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "7d0432de-3b25-4165-81f9-556fe764a0bf",
+  "version": 4,
+  "publicationDate": "2025-03-06T12:46:14.0000000Z",
+  "publisherId": "N00643",
+  "publisherName": "Svenska kraftn\u00e4t"
+}

@@ -1,0 +1,70 @@
+{
+  "messageType": 1,
+  "isOutdated": true,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "unavailabilityReason": "Trubleshooting is done. More maintenance is required.",
+  "remarks": "Update: Is expected to be back on grid 03.10.2021 at 10:00. Power will be increased to 885MW in the afternon. 30 hours later power slowly will be increased to full power. Full power is expected in the early tuesday 2021-10-05.",
+  "productionUnits": [
+    {
+      "name": "Forsmark Block2",
+      "eic": "46WPU0000000016U",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1118,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 108,
+          "availableCapacity": 1010,
+          "eventStart": "2021-09-25T08:30:00.0000000Z",
+          "eventStop": "2021-10-01T20:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 1118,
+          "availableCapacity": 0,
+          "eventStart": "2021-10-01T20:00:00.0000000Z",
+          "eventStop": "2021-10-03T08:00:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    },
+    {
+      "name": "Skellefte\u00e5 Kraft AB",
+      "code": "A0001903T.SE",
+      "acerCode": "A0001903T.SE",
+      "eicCode": "46X000000000010A",
+      "leiCode": "549300XZX64WBNX25B71"
+    },
+    {
+      "name": "Fortum Sverige AB",
+      "code": "A0000925O.SE",
+      "acerCode": "A0000925O.SE",
+      "eicCode": "46X000000000018V",
+      "leiCode": "635400CYQ5DSSFPDVV50"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "aa586a50-6a15-40a3-b71b-18606288b0c9",
+  "version": 5,
+  "publicationDate": "2021-10-02T08:38:28.7302610Z",
+  "publisherId": "N01256",
+  "publisherName": "Forsmarks Kraftgrupp AB",
+  "acerRssMessageIds": [
+    "EUIMSG-4U6IBJFW991N9RV1K5_005"
+  ]
+}

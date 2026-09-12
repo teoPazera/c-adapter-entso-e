@@ -1,0 +1,22 @@
+Event: G090 (Forsmark block 1, generation)
+Message: d102a701-cb6e-4f57-a1fa-6a98c04c6799 version 6
+Published: 2026-01-06T00:35:54.2108800Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Failure
+Maintenance on turbine valve.
+
+Time periods:
+  Unit/border: Forsmark Block1
+    2025-12-22T19:28:00.0000000Z -> 2025-12-24T09:30:00.0000000Z: unavailable 1104 MW, available 0 MW
+    2025-12-24T09:30:00.0000000Z -> 2026-01-01T11:00:00.0000000Z: unavailable 174 MW, available 930 MW
+    2026-01-01T11:00:00.0000000Z -> 2026-01-06T01:30:00.0000000Z: unavailable 552 MW, available 552 MW
+
+Remarks:
+Event stop updated. Maintenance on turbine valve completed.
+After reconnection to the grid, normal operation is expected within approximately 45 hours.
+
+Initially, the power will be increased to 98% within app. 6 hours.
+After that, the power will be increased to 104% within  12-13. A
+ decrease to 93%, app. 2-3h, will take place before the increase to 104%.
+When reaching 104%, the time to increase power from 104% to full power  is app. 24h

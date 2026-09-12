@@ -1,0 +1,13 @@
+Event: G053 (Ringhals 3, generation)
+Message: c25c1170-d8fc-43e3-9515-3e74e41816d8 version 3
+Published: 2023-10-20T23:12:54.9938920Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Reactor trip.
+
+Time periods:
+  Unit/border: Ringhals block 3
+    2023-10-19T12:45:00.0000000Z -> 2023-10-21T03:00:00.0000000Z: unavailable 1074 MW, available 0 MW
+
+Remarks:
+New information: After the event stop Ringhals 3 will be technically available. Normal production can be reached in 15 hours.

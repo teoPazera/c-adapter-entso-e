@@ -1,0 +1,15 @@
+Event: G008 (Ringhals 4, generation)
+Message: 5c774185-e6d1-48a1-b05d-78d72704d0db version 1
+Published: 2020-02-05T10:06:33.9335490Z
+Unavailability type: Planned
+Reason code: Foreseen maintenance
+Unavailability reason: Yearly maintenance.
+
+Time periods:
+  Unit/border: Ringhals Block4
+    2021-07-27T22:00:00.0000000Z -> 2021-09-05T21:59:00.0000000Z: unavailable 1130 MW, available 0 MW
+
+Remarks:
+New information: 
+New UMM created due to updated installed capacity. Se cancelled UMM: https://umm.nordpoolgroup.com/#/messages/e5a77b8c-b8be-4aab-99f2-9d3d4b815f39/4 .
+Actions planned: Refueling, projects and tests.

@@ -1,0 +1,76 @@
+{
+  "messageType": 1,
+  "isOutdated": true,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "unavailabilityReason": "Failure\nMaintenance on turbine valve.",
+  "remarks": "Event stop updated. Maintenance on turbine valve completed.\nAfter reconnection to the grid, normal operation is expected within approximately 45 hours.\n\nInitially, the power will be increased to 98% within app. 6 hours.\nAfter that, the power will be increased to 104% within  12-13. A\n decrease to 93%, app. 2-3h, will take place before the increase to 104%.\nWhen reaching 104%, the time to increase power from 104% to full power  is app. 24h\n",
+  "productionUnits": [
+    {
+      "name": "Forsmark Block1",
+      "eic": "46WPU0000000015W",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1104,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1104,
+          "availableCapacity": 0,
+          "eventStart": "2025-12-22T19:28:00.0000000Z",
+          "eventStop": "2025-12-24T09:30:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 174,
+          "availableCapacity": 930,
+          "eventStart": "2025-12-24T09:30:00.0000000Z",
+          "eventStop": "2026-01-01T11:00:00.0000000Z"
+        },
+        {
+          "unavailableCapacity": 552,
+          "availableCapacity": 552,
+          "eventStart": "2026-01-01T11:00:00.0000000Z",
+          "eventStop": "2026-01-05T21:30:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    },
+    {
+      "name": "Fortum Sverige AB",
+      "code": "A0000925O.SE",
+      "acerCode": "A0000925O.SE",
+      "eicCode": "46X000000000018V",
+      "leiCode": "635400CYQ5DSSFPDVV50"
+    },
+    {
+      "name": "Skellefte\u00e5 Kraft AB",
+      "code": "A0001903T.SE",
+      "acerCode": "A0001903T.SE",
+      "eicCode": "46X000000000010A",
+      "leiCode": "549300XZX64WBNX25B71"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "d102a701-cb6e-4f57-a1fa-6a98c04c6799",
+  "version": 4,
+  "publicationDate": "2026-01-05T11:51:56.0790140Z",
+  "publisherId": "N01256",
+  "publisherName": "Forsmarks Kraftgrupp AB",
+  "acerRssMessageIds": [
+    "EUIMSG-4HWT7ZK0QDXOMCGBHH_004"
+  ]
+}

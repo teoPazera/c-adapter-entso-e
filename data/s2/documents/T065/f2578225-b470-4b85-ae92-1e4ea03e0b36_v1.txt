@@ -1,0 +1,31 @@
+Event: T065 (FI → SE3, transmission)
+Message: f2578225-b470-4b85-ae92-1e4ea03e0b36 version 1
+Published: 2024-06-17T15:43:09.0000000Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: See UMM from Ringhals AB.
+
+Time periods:
+  Unit/border: SE3 → SE3A
+    2024-06-18T15:00:00.0000000Z -> 2024-06-19T21:00:00.0000000Z: unavailable 2160 MW, available 650 MW
+    2024-06-19T21:00:00.0000000Z -> 2024-06-19T21:30:00.0000000Z: unavailable 2160 MW, available 650 MW
+    2024-06-19T21:30:00.0000000Z -> 2024-06-19T21:45:00.0000000Z: unavailable 2160 MW, available 650 MW
+    2024-06-19T21:45:00.0000000Z -> 2024-06-19T21:59:00.0000000Z: unavailable 2160 MW, available 650 MW
+  Unit/border: SE3 → SE4
+    2024-06-18T15:00:00.0000000Z -> 2024-06-19T21:00:00.0000000Z: unavailable 2400 MW, available 3800 MW
+    2024-06-19T21:00:00.0000000Z -> 2024-06-19T21:30:00.0000000Z: unavailable 2400 MW, available 3800 MW
+    2024-06-19T21:30:00.0000000Z -> 2024-06-19T21:45:00.0000000Z: unavailable 2400 MW, available 3800 MW
+    2024-06-19T21:45:00.0000000Z -> 2024-06-19T21:59:00.0000000Z: unavailable 2400 MW, available 3800 MW
+  Unit/border: SE2 → SE3
+    2024-06-18T15:00:00.0000000Z -> 2024-06-19T21:00:00.0000000Z: unavailable 1400 MW, available 5900 MW
+    2024-06-19T21:00:00.0000000Z -> 2024-06-19T21:30:00.0000000Z: unavailable 1400 MW, available 5900 MW
+    2024-06-19T21:30:00.0000000Z -> 2024-06-19T21:45:00.0000000Z: unavailable 1400 MW, available 5900 MW
+    2024-06-19T21:45:00.0000000Z -> 2024-06-19T21:59:00.0000000Z: unavailable 1400 MW, available 5900 MW
+  Unit/border: FI → SE3
+    2024-06-18T15:00:00.0000000Z -> 2024-06-19T21:00:00.0000000Z: unavailable 1100 MW, available 100 MW
+    2024-06-19T21:00:00.0000000Z -> 2024-06-19T21:30:00.0000000Z: unavailable 1100 MW, available 100 MW
+    2024-06-19T21:30:00.0000000Z -> 2024-06-19T21:45:00.0000000Z: unavailable 1100 MW, available 100 MW
+    2024-06-19T21:45:00.0000000Z -> 2024-06-19T21:59:00.0000000Z: unavailable 1100 MW, available 100 MW
+
+Remarks:
+Reduced capacity due to unplanned outage on Ringhals G42. Preliminary capacities: NTC capacitites expected to vary on Day-Ahead as follows: SE2>SE3: 5700-6300; SE3>SE4: 3800-4300; SE3>SE3A: 550-950; FI>SE3: 0-200 MW. The capacities depend on availability of remedial actions, ambient temperatures and expected load flow conditions.

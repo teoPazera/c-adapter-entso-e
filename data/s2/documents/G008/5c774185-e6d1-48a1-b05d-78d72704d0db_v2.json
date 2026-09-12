@@ -1,0 +1,47 @@
+{
+  "messageType": 1,
+  "isOutdated": true,
+  "unavailabilityType": 2,
+  "reasonCode": 2,
+  "unavailabilityReason": "Yearly maintenance.",
+  "remarks": "New information: Yearly Outage is prolonged 2 days. \nActions planned: Refueling, projects and tests.",
+  "productionUnits": [
+    {
+      "name": "Ringhals Block4",
+      "eic": "46WPU0000000014Y",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1130,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1130,
+          "availableCapacity": 0,
+          "eventStart": "2021-07-27T22:00:00.0000000Z",
+          "eventStop": "2021-09-09T21:59:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+  "version": 2,
+  "publicationDate": "2020-09-28T11:32:10.9006230Z",
+  "publisherId": "N02101",
+  "publisherName": "Ringhals AB"
+}

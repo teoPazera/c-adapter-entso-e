@@ -1,0 +1,40 @@
+Event: T060 (FI → SE3, transmission)
+Message: bc529a40-24d1-45ae-8b04-3514126e5858 version 3
+Published: 2023-11-30T06:02:25.0000000Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Failure
+
+Time periods:
+  Unit/border: SE3 → SE3LS
+    2023-11-29T00:25:00.0000000Z -> 2023-11-29T00:30:00.0000000Z: unavailable 2260 MW, available 550 MW
+    2023-11-29T00:30:00.0000000Z -> 2023-11-29T01:00:00.0000000Z: unavailable 2260 MW, available 550 MW
+    2023-11-29T01:00:00.0000000Z -> 2023-12-01T22:00:00.0000000Z: unavailable 2260 MW, available 550 MW
+    2023-12-01T22:00:00.0000000Z -> 2023-12-01T22:30:00.0000000Z: unavailable 2260 MW, available 550 MW
+    2023-12-01T22:30:00.0000000Z -> 2023-12-01T22:45:00.0000000Z: unavailable 2260 MW, available 550 MW
+    2023-12-01T22:45:00.0000000Z -> 2023-12-01T22:59:00.0000000Z: unavailable 2260 MW, available 550 MW
+  Unit/border: SE3 → SE4
+    2023-11-29T00:25:00.0000000Z -> 2023-11-29T00:30:00.0000000Z: unavailable 1600 MW, available 4600 MW
+    2023-11-29T00:30:00.0000000Z -> 2023-11-29T01:00:00.0000000Z: unavailable 1600 MW, available 4600 MW
+    2023-11-29T01:00:00.0000000Z -> 2023-12-01T22:00:00.0000000Z: unavailable 1600 MW, available 4600 MW
+    2023-12-01T22:00:00.0000000Z -> 2023-12-01T22:30:00.0000000Z: unavailable 1600 MW, available 4600 MW
+    2023-12-01T22:30:00.0000000Z -> 2023-12-01T22:45:00.0000000Z: unavailable 1600 MW, available 4600 MW
+    2023-12-01T22:45:00.0000000Z -> 2023-12-01T22:59:00.0000000Z: unavailable 1600 MW, available 4600 MW
+  Unit/border: SE2 → SE3
+    2023-11-29T00:25:00.0000000Z -> 2023-11-29T00:30:00.0000000Z: unavailable 400 MW, available 6900 MW
+    2023-11-29T00:30:00.0000000Z -> 2023-11-29T01:00:00.0000000Z: unavailable 400 MW, available 6900 MW
+    2023-11-29T01:00:00.0000000Z -> 2023-12-01T22:00:00.0000000Z: unavailable 400 MW, available 6900 MW
+    2023-12-01T22:00:00.0000000Z -> 2023-12-01T22:30:00.0000000Z: unavailable 400 MW, available 6900 MW
+    2023-12-01T22:30:00.0000000Z -> 2023-12-01T22:45:00.0000000Z: unavailable 400 MW, available 6900 MW
+    2023-12-01T22:45:00.0000000Z -> 2023-12-01T22:59:00.0000000Z: unavailable 400 MW, available 6900 MW
+  Unit/border: FI → SE3
+    2023-11-29T00:25:00.0000000Z -> 2023-11-29T00:30:00.0000000Z: unavailable 1200 MW, available 0 MW
+    2023-11-29T00:30:00.0000000Z -> 2023-11-29T01:00:00.0000000Z: unavailable 1200 MW, available 0 MW
+    2023-11-29T01:00:00.0000000Z -> 2023-12-01T22:00:00.0000000Z: unavailable 1200 MW, available 0 MW
+    2023-12-01T22:00:00.0000000Z -> 2023-12-01T22:30:00.0000000Z: unavailable 1200 MW, available 0 MW
+    2023-12-01T22:30:00.0000000Z -> 2023-12-01T22:45:00.0000000Z: unavailable 1200 MW, available 0 MW
+    2023-12-01T22:45:00.0000000Z -> 2023-12-01T22:59:00.0000000Z: unavailable 1200 MW, available 0 MW
+
+Remarks:
+Failure. Updated capacities.
+End time uncertain.

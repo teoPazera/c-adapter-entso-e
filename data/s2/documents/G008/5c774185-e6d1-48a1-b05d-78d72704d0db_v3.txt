@@ -1,0 +1,14 @@
+Event: G008 (Ringhals 4, generation)
+Message: 5c774185-e6d1-48a1-b05d-78d72704d0db version 3
+Published: 2020-09-28T11:33:44.7863360Z
+Unavailability type: Planned
+Reason code: Foreseen maintenance
+Unavailability reason: Yearly maintenance.
+
+Time periods:
+  Unit/border: Ringhals Block4
+    2021-07-27T22:00:00.0000000Z -> 2021-09-09T21:59:00.0000000Z: unavailable 1130 MW, available 0 MW
+
+Remarks:
+New information: Yearly Outage is prolonged 4 days. 
+Actions planned: Refueling, projects and tests.

@@ -1,0 +1,14 @@
+Event: G074 (Forsmark block 3, generation)
+Message: ac830608-da5a-4fc5-a453-736c0aad3c73 version 5
+Published: 2025-02-08T01:43:12.6641090Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Additional maintenance work due to valve problems
+
+Time periods:
+  Unit/border: Forsmark Block3
+    2025-02-05T09:01:00.0000000Z -> 2025-02-05T17:00:00.0000000Z: unavailable 472 MW, available 700 MW
+    2025-02-05T17:00:00.0000000Z -> 2025-02-08T03:00:00.0000000Z: unavailable 1172 MW, available 0 MW
+
+Remarks:
+New event stopp. Full power with in 3 days

@@ -1,0 +1,50 @@
+{
+  "messageType": 1,
+  "isOutdated": false,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "unavailabilityReason": "Reactor trip.",
+  "remarks": "New information: After the event stop Ringhals 3 will be technically available. Normal production can be reached in 15 hours.",
+  "productionUnits": [
+    {
+      "name": "Ringhals block 3",
+      "eic": "46WPU00000000121",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1074,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1074,
+          "availableCapacity": 0,
+          "eventStart": "2023-10-19T12:45:00.0000000Z",
+          "eventStop": "2023-10-21T06:00:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "c25c1170-d8fc-43e3-9515-3e74e41816d8",
+  "version": 4,
+  "publicationDate": "2023-10-21T03:08:23.7040380Z",
+  "publisherId": "N02101",
+  "publisherName": "Ringhals AB",
+  "acerRssMessageIds": [
+    "EUIMSG-YDUI4SJQ0GK1ZH16LX_004"
+  ]
+}

@@ -1,0 +1,15 @@
+Event: G008 (Ringhals 4, generation)
+Message: 5c774185-e6d1-48a1-b05d-78d72704d0db version 4
+Published: 2021-01-21T12:24:41.6073510Z
+Unavailability type: Planned
+Reason code: Foreseen maintenance
+Unavailability reason: Yearly maintenance.
+
+Time periods:
+  Unit/border: Ringhals Block4
+    2021-07-27T03:00:00.0000000Z -> 2021-07-27T23:00:00.0000000Z: unavailable 565 MW, available 565 MW
+    2021-07-27T23:00:00.0000000Z -> 2021-09-09T21:59:00.0000000Z: unavailable 1130 MW, available 0 MW
+
+Remarks:
+New information: Ringhals 4 will start power decrease 27.07.2021 at 01:00 and maintain at 565 MW for approximately 20 hours. Further decrease will start 28.07.2021 at 01:00 with last turbine from grid 28.07.2021 at 05:00 
+Actions planned: Refueling, projects and tests.

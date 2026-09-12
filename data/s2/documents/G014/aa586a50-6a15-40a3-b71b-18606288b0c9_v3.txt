@@ -1,0 +1,15 @@
+Event: G014 (Forsmark block 2, generation)
+Message: aa586a50-6a15-40a3-b71b-18606288b0c9 version 3
+Published: 2021-09-28T12:24:43.9023470Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Trubleshooting is done. More maintenance is required.
+
+Time periods:
+  Unit/border: Forsmark Block2
+    2021-09-25T08:30:00.0000000Z -> 2021-10-01T20:00:00.0000000Z: unavailable 108 MW, available 1010 MW
+    2021-10-01T20:00:00.0000000Z -> 2021-10-03T08:00:00.0000000Z: unavailable 1118 MW, available 0 MW
+
+Remarks:
+Power reduction will start 2021.10.01 at 14:00 and power will be 760 MW between 15:00-17:00 due to valvetest. Then power slowly will decreased during the evening and Forsmark 2 will leave grid 2021.10.01 at 22:00.
+Planned to be back on grid 2021.10.03 at 10:00

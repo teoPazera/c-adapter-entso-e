@@ -1,0 +1,14 @@
+Event: G014 (Forsmark block 2, generation)
+Message: aa586a50-6a15-40a3-b71b-18606288b0c9 version 2
+Published: 2021-09-25T12:49:26.4795070Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Trubleshooting is done. More maintenance is required.
+
+Time periods:
+  Unit/border: Forsmark Block2
+    2021-09-25T08:30:00.0000000Z -> 2021-10-01T21:59:00.0000000Z: unavailable 108 MW, available 1010 MW
+
+Remarks:
+Available power will be 1010MW until 2021.10.01 at 23:59.
+Plan for full power will be given when available.

@@ -1,0 +1,16 @@
+Event: G079 (Forsmark block 1, generation)
+Message: f469a061-1fca-4661-90d0-a5a84c313d1c version 4
+Published: 2025-05-07T16:21:09.4262780Z
+Unavailability type: Planned
+Reason code: Foreseen maintenance
+Unavailability reason: Due to restrictions in production from SvK (NUCS message ID:  NU_5k4HopL1jdzAbfvErr-0XA_003 and NU_YTvR-ixzidNCTdFoibCrig_001), Forsmark 1 and 2 must decrease its production to aprox. 55%. FKA has made the decision to stop Forsmark 1 during this time to localize and change a leaking fuel element. 
+
+Time periods:
+  Unit/border: Forsmark Block1
+    2025-05-07T15:00:00.0000000Z -> 2025-05-09T04:00:00.0000000Z: unavailable 501 MW, available 603 MW
+    2025-05-09T04:00:00.0000000Z -> 2025-05-09T16:00:00.0000000Z: unavailable 824 MW, available 280 MW
+    2025-05-09T16:00:00.0000000Z -> 2025-05-16T15:00:00.0000000Z: unavailable 1104 MW, available 0 MW
+
+Remarks:
+UMM updated with new Event stopp time from (16.05.2025) 03:00 to 17:00.
+Forsmark 1 will decrease its production from 1104MW to 603 MW  to localize the fuel leakage. From 09.05.2025 06:00 to 09.05.2025 18:00 Forsmark 1 will be avalible for production but restricted by the NUCS. At 09.05.2025 18:00 we will disconnect from grid and change damaged fuel element. We will be availible for production at 16.05.2025 17:00. Ramping up to normal operation will take aprox. 2 days considering the NUCS.

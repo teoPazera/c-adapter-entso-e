@@ -1,0 +1,50 @@
+{
+  "messageType": 1,
+  "isOutdated": true,
+  "unavailabilityType": 1,
+  "reasonCode": 1,
+  "unavailabilityReason": "Reactor trip.",
+  "remarks": "New information: Updated event stop 21.10.2023 02:00. Normal production is expected in the afternoon.",
+  "productionUnits": [
+    {
+      "name": "Ringhals block 3",
+      "eic": "46WPU00000000121",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1074,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1074,
+          "availableCapacity": 0,
+          "eventStart": "2023-10-19T12:45:00.0000000Z",
+          "eventStop": "2023-10-21T00:00:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "c25c1170-d8fc-43e3-9515-3e74e41816d8",
+  "version": 2,
+  "publicationDate": "2023-10-20T08:21:15.7971040Z",
+  "publisherId": "N02101",
+  "publisherName": "Ringhals AB",
+  "acerRssMessageIds": [
+    "EUIMSG-YDUI4SJQ0GK1ZH16LX_002"
+  ]
+}

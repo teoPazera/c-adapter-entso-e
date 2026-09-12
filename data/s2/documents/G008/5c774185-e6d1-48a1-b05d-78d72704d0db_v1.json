@@ -1,0 +1,47 @@
+{
+  "messageType": 1,
+  "isOutdated": true,
+  "unavailabilityType": 2,
+  "reasonCode": 2,
+  "unavailabilityReason": "Yearly maintenance.",
+  "remarks": "New information: \nNew UMM created due to updated installed capacity. Se cancelled UMM: https://umm.nordpoolgroup.com/#/messages/e5a77b8c-b8be-4aab-99f2-9d3d4b815f39/4 .\nActions planned: Refueling, projects and tests.",
+  "productionUnits": [
+    {
+      "name": "Ringhals Block4",
+      "eic": "46WPU0000000014Y",
+      "fuelType": 14,
+      "areaEic": "10Y1001A1001A46L",
+      "areaName": "SE3",
+      "installedCapacity": 1130,
+      "timePeriods": [
+        {
+          "unavailableCapacity": 1130,
+          "availableCapacity": 0,
+          "eventStart": "2021-07-27T22:00:00.0000000Z",
+          "eventStop": "2021-09-05T21:59:00.0000000Z"
+        }
+      ]
+    }
+  ],
+  "transmissionUnits": [],
+  "marketParticipants": [
+    {
+      "name": "Vattenfall AB",
+      "code": "A0001247V.SE",
+      "acerCode": "A0001247V.SE",
+      "eicCode": "46X000000000008Y",
+      "leiCode": "549300T5RZ1HA5HZ3109"
+    },
+    {
+      "name": "Sydkraft Nuclear Power AB",
+      "code": "A00090512.SE",
+      "acerCode": "A00090512.SE"
+    }
+  ],
+  "eventStatus": 1,
+  "messageId": "5c774185-e6d1-48a1-b05d-78d72704d0db",
+  "version": 1,
+  "publicationDate": "2020-02-05T10:06:33.9335490Z",
+  "publisherId": "N02101",
+  "publisherName": "Ringhals AB"
+}

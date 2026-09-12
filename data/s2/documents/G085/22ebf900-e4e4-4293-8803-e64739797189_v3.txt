@@ -1,0 +1,14 @@
+Event: G085 (Forsmark block 2, generation)
+Message: 22ebf900-e4e4-4293-8803-e64739797189 version 3
+Published: 2025-08-14T07:33:31.1146090Z
+Unavailability type: Unplanned
+Reason code: Foreseen maintenance
+Unavailability reason: Necessary measure in containment.
+Additional deviation on main steam valve. Troubleshooting is ongoing.
+
+Time periods:
+  Unit/border: Forsmark Block2
+    2025-08-14T01:00:00.0000000Z -> 2025-08-14T21:59:00.0000000Z: unavailable 1121 MW, available 0 MW
+
+Remarks:
+Start power decrease at 14.08.2025 3:00 and disconnect from grid about 8. Reconnect to grid is posponed. Troubleshooting is ongoing on main steam valve.

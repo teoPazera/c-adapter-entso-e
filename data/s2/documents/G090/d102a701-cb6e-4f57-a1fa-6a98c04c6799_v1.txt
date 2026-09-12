@@ -1,0 +1,13 @@
+Event: G090 (Forsmark block 1, generation)
+Message: d102a701-cb6e-4f57-a1fa-6a98c04c6799 version 1
+Published: 2025-12-22T21:19:40.1936420Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Failure
+
+Time periods:
+  Unit/border: Forsmark Block1
+    2025-12-22T19:28:00.0000000Z -> 2025-12-24T22:59:00.0000000Z: unavailable 1104 MW, available 0 MW
+
+Remarks:
+Actions to establish cold shut down are ongoing due to failure. Further information will be given when available.

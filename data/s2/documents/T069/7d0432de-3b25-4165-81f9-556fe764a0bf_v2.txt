@@ -1,0 +1,29 @@
+Event: T069 (FI → SE3, transmission)
+Message: 7d0432de-3b25-4165-81f9-556fe764a0bf version 2
+Published: 2025-03-01T06:42:28.0000000Z
+Unavailability type: Unplanned
+Reason code: Failure
+Unavailability reason: Ringhals G31
+
+Time periods:
+  Unit/border: SE3 → SE4
+    2025-02-28T15:11:00.0000000Z -> 2025-02-28T15:15:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-02-28T15:15:00.0000000Z -> 2025-02-28T15:30:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-02-28T15:30:00.0000000Z -> 2025-02-28T16:00:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-02-28T16:00:00.0000000Z -> 2025-03-14T22:00:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-03-14T22:00:00.0000000Z -> 2025-03-14T22:30:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-03-14T22:30:00.0000000Z -> 2025-03-14T22:45:00.0000000Z: unavailable 1800 MW, available 4400 MW
+    2025-03-14T22:45:00.0000000Z -> 2025-03-14T22:59:00.0000000Z: unavailable 1800 MW, available 4400 MW
+  Unit/border: SE3 → SE3A
+    2025-02-28T15:11:00.0000000Z -> 2025-02-28T15:15:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-02-28T15:15:00.0000000Z -> 2025-02-28T15:30:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-02-28T15:30:00.0000000Z -> 2025-02-28T16:00:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-02-28T16:00:00.0000000Z -> 2025-03-14T22:00:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-03-14T22:00:00.0000000Z -> 2025-03-14T22:30:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-03-14T22:30:00.0000000Z -> 2025-03-14T22:45:00.0000000Z: unavailable 2060 MW, available 750 MW
+    2025-03-14T22:45:00.0000000Z -> 2025-03-14T22:59:00.0000000Z: unavailable 2060 MW, available 750 MW
+
+Remarks:
+Preliminary capacities, will depend on load flow conditions.
+
+Updated end time.
