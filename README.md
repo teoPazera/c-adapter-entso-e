@@ -34,9 +34,10 @@ git — 261 MB combined, and deterministically reproducible (see
 `notes/03-baseline.md`, Verification 2: an isolated refit matches the
 cached model to 2.5e-8). They ship instead as a GitHub Release asset.
 
-Download the latest `s3_cache_*.zip` from the repo's Releases page and
-unzip it at the repo root — it restores `data/s3/models/`, `data/raw/`,
-and `data/s3/archive_*/` in place.
+Download [`s3_cache_v1.zip`](https://github.com/teoPazera/c-adapter-entso-e/releases/tag/v1-s3-baseline)
+(44 MB, SHA-256 `643990f7dc64b84b3646b3b2c10c06bd1814c11a0f9dd1fc4fc41152748397b8`)
+and unzip it at the repo root — it restores `data/s3/models/`,
+`data/raw/`, and `data/s3/archive_*/` in place.
 
 Without the zip, the same commands below still work; they just refit
 everything first (~30 min for validation, ~2.3 h for test, $0 — no LLM
