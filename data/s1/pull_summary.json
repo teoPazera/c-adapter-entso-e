@@ -1,0 +1,355 @@
+{
+  "price": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "load_forecast": {
+    "n_chunks": 69,
+    "n_ok": 24,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 45
+  },
+  "wind_solar_forecast": {
+    "n_chunks": 69,
+    "n_ok": 24,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 45
+  },
+  "ntc_probe_se3_se2": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_se2_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_se3_se4": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_se4_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_se3_no1": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_no1_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_se3_fi": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_fi_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_se3_dk1": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_dk1_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_alive": {
+    "se3_se2": false,
+    "se2_se3": false,
+    "se3_se4": false,
+    "se4_se3": false,
+    "se3_no1": false,
+    "no1_se3": false,
+    "se3_fi": false,
+    "fi_se3": false,
+    "se3_dk1": false,
+    "dk1_se3": false
+  },
+  "installed_capacity_type": {
+    "n_chunks": 6,
+    "n_ok": 0,
+    "n_empty": 2,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "installed_capacity_unit": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "outage_generation_units": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "outage_production_units": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_se3_se2": {
+    "n_chunks": 6,
+    "n_ok": 1,
+    "n_empty": 1,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_se2_se3": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_se3_se4": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_se4_se3": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_se3_no1": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_no1_se3": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_se3_fi": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_fi_se3": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_se3_dk1": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "transmission_outage_dk1_se3": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "hydro_reservoir": {
+    "n_chunks": 6,
+    "n_ok": 2,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 4
+  },
+  "ntc_prefb_probe_se3_se2": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_prefb_probe_se2_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_prefb_probe_se3_se4": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_prefb_probe_se4_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_prefb_probe_se3_no1": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_prefb_probe_no1_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_prefb_probe_se3_fi": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_prefb_probe_fi_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_prefb_probe_se3_dk1": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_prefb_probe_dk1_se3": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "ntc_probe_alive_prefb": {
+    "se3_se2": false,
+    "se2_se3": false,
+    "se3_se4": false,
+    "se4_se3": false,
+    "se3_no1": false,
+    "no1_se3": false,
+    "se3_fi": false,
+    "fi_se3": false,
+    "se3_dk1": false,
+    "dk1_se3": false
+  },
+  "a68_probe_SE_1": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "a68_probe_SE_2": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "a68_probe_SE_4": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "a68_probe_SE": {
+    "n_chunks": 1,
+    "n_ok": 0,
+    "n_empty": 0,
+    "n_fail": 0,
+    "n_cached": 1
+  },
+  "a68_probe_results": {
+    "SE_1": {
+      "2023": "empty",
+      "2024": "empty",
+      "2025": "empty"
+    },
+    "SE_2": {
+      "2023": "empty",
+      "2024": "empty",
+      "2025": "empty"
+    },
+    "SE_4": {
+      "2023": "empty",
+      "2024": "empty",
+      "2025": "empty"
+    },
+    "SE": {
+      "2023": "ok",
+      "2024": "ok",
+      "2025": "ok"
+    }
+  },
+  "_meta": {
+    "elapsed_seconds": 142.3,
+    "zone": "SE_3",
+    "window": [
+      "2021-01-01",
+      "2026-09-12"
+    ],
+    "n_year_chunks": 6,
+    "n_month_chunks": 69,
+    "n_border_pairs": 10,
+    "est_top_level_calls_upper_bound": 366,
+    "n_real_http_requests_this_run": 116
+  }
+}

@@ -1,0 +1,751 @@
+{
+  "expected_index": {
+    "n_rows": 49919,
+    "start": "2021-01-01 00:00:00+01:00",
+    "end": "2026-09-11 23:00:00+02:00"
+  },
+  "price": {
+    "n_raw_points": 74827,
+    "n_negative_raw_points": 1891,
+    "resolution_switch": {
+      "switch_timestamp_local": "2025-10-01 00:00:00+02:00",
+      "n_hours_after_switch_total": 8305,
+      "n_hours_after_switch_not_4_subpoints": 2,
+      "example_bad_after_switch": [
+        "2025-12-31 00:00:00+01:00",
+        "2026-09-12 00:00:00+02:00"
+      ],
+      "n_hours_before_switch_not_1_subpoint": 0,
+      "example_bad_before_switch": []
+    },
+    "coverage": {
+      "n_expected": 49919,
+      "n_present": 49915,
+      "n_nan": 4,
+      "longest_nan_run_hours": 1,
+      "longest_nan_run_start": "2021-12-31 00:00:00+01:00",
+      "longest_nan_run_end": "2021-12-31 00:00:00+01:00",
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "n_empty_chunks": 0,
+    "n_error_chunks": 0
+  },
+  "load_forecast": {
+    "n_raw_points": 70268,
+    "resolution_switch": {
+      "switch_timestamp_local": "2025-12-02 00:00:00+01:00",
+      "n_hours_after_switch_total": 6791,
+      "n_hours_after_switch_not_4_subpoints": 0,
+      "example_bad_after_switch": [],
+      "n_hours_before_switch_not_1_subpoint": 0,
+      "example_bad_before_switch": []
+    },
+    "value_range": [
+      5516.0,
+      16856.0
+    ],
+    "coverage": {
+      "n_expected": 49919,
+      "n_present": 49895,
+      "n_nan": 24,
+      "longest_nan_run_hours": 24,
+      "longest_nan_run_start": "2025-12-04 00:00:00+01:00",
+      "longest_nan_run_end": "2025-12-04 23:00:00+01:00",
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "n_empty_chunks": 0,
+    "n_error_chunks": 0
+  },
+  "wind_solar_forecast_columns_found": [
+    "Wind Onshore",
+    "Solar"
+  ],
+  "solar_forecast_mw": {
+    "n_raw_points": 70460,
+    "resolution_switch": {
+      "switch_timestamp_local": "2025-11-25 00:00:00+01:00",
+      "n_hours_after_switch_total": 6911,
+      "n_hours_after_switch_not_4_subpoints": 0,
+      "example_bad_after_switch": [],
+      "n_hours_before_switch_not_1_subpoint": 0,
+      "example_bad_before_switch": []
+    },
+    "value_range": [
+      0.0,
+      1671.94
+    ],
+    "coverage": {
+      "n_expected": 49919,
+      "n_present": 41687,
+      "n_nan": 8232,
+      "longest_nan_run_hours": 8040,
+      "longest_nan_run_start": "2021-01-01 00:00:00+01:00",
+      "longest_nan_run_end": "2021-12-01 23:00:00+01:00",
+      "first_valid": "2021-12-02 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "n_empty_chunks": 0,
+    "n_error_chunks": 0,
+    "n_zero_filled_pre_first_observation": 8040
+  },
+  "wind_onshore_forecast_mw": {
+    "n_raw_points": 70460,
+    "resolution_switch": {
+      "switch_timestamp_local": "2025-11-25 00:00:00+01:00",
+      "n_hours_after_switch_total": 6911,
+      "n_hours_after_switch_not_4_subpoints": 0,
+      "example_bad_after_switch": [],
+      "n_hours_before_switch_not_1_subpoint": 0,
+      "example_bad_before_switch": []
+    },
+    "value_range": [
+      19.3,
+      3862.068
+    ],
+    "coverage": {
+      "n_expected": 49919,
+      "n_present": 49727,
+      "n_nan": 192,
+      "longest_nan_run_hours": 48,
+      "longest_nan_run_start": "2025-11-01 00:00:00+01:00",
+      "longest_nan_run_end": "2025-11-02 23:00:00+01:00",
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "n_empty_chunks": 0,
+    "n_error_chunks": 0,
+    "n_zero_filled_pre_first_observation": 0
+  },
+  "ntc": {
+    "se3_se2": {
+      "dropped_by_probe": true
+    },
+    "se3_se4": {
+      "dropped_by_probe": true
+    },
+    "se3_no1": {
+      "dropped_by_probe": true
+    },
+    "se3_fi": {
+      "dropped_by_probe": true
+    },
+    "se3_dk1": {
+      "dropped_by_probe": true
+    },
+    "se2_se3": {
+      "dropped_by_probe": true
+    },
+    "se4_se3": {
+      "dropped_by_probe": true
+    },
+    "no1_se3": {
+      "dropped_by_probe": true
+    },
+    "fi_se3": {
+      "dropped_by_probe": true
+    },
+    "dk1_se3": {
+      "dropped_by_probe": true
+    }
+  },
+  "ntc_prefb": {
+    "alive_pairs": [],
+    "probe_results": {
+      "se3_se2": false,
+      "se2_se3": false,
+      "se3_se4": false,
+      "se4_se3": false,
+      "se3_no1": false,
+      "no1_se3": false,
+      "se3_fi": false,
+      "fi_se3": false,
+      "se3_dk1": false,
+      "dk1_se3": false
+    },
+    "file_written": false,
+    "note": "no pre-flow-based NTC data for any pair; ntc_prefb_se3.csv not created"
+  },
+  "installed_capacity_type": {
+    "n_raw_rows": 1,
+    "years_found": [
+      2026
+    ],
+    "n_years_with_duplicate_raw_rows": 0,
+    "totals_by_year_mw": {
+      "2026": 16293.0
+    },
+    "columns_found": [
+      "Hydro Water Reservoir",
+      "Nuclear",
+      "Other",
+      "Wind Onshore"
+    ],
+    "n_empty_chunks": 5,
+    "n_error_chunks": 0
+  },
+  "installed_capacity_unit": {
+    "n_raw_rows": 136,
+    "columns_found": [
+      "Bidding Zone",
+      "Installed Capacity [MW]",
+      "Name",
+      "Production Type",
+      "Start",
+      "Voltage Connection Level [kV]",
+      "query_year"
+    ],
+    "by_query_year": {
+      "2021": {
+        "n_units": 21,
+        "total_installed_mw": 10502.0
+      },
+      "2022": {
+        "n_units": 22,
+        "total_installed_mw": 9748.8
+      },
+      "2023": {
+        "n_units": 23,
+        "total_installed_mw": 9868.8
+      },
+      "2024": {
+        "n_units": 21,
+        "total_installed_mw": 9402.8
+      },
+      "2025": {
+        "n_units": 22,
+        "total_installed_mw": 9553.8
+      },
+      "2026": {
+        "n_units": 27,
+        "total_installed_mw": 10456.199999999999
+      }
+    },
+    "n_empty_chunks": 0,
+    "n_error_chunks": 0
+  },
+  "outage_revision_check": {
+    "A80": {
+      "n_rows": 387,
+      "n_distinct_mrid": 315,
+      "max_rows_per_mrid": 21,
+      "n_mrid_with_multiple_rows": 13
+    },
+    "A77": {
+      "n_rows": 560,
+      "n_distinct_mrid": 348,
+      "max_rows_per_mrid": 32,
+      "n_mrid_with_multiple_rows": 57
+    }
+  },
+  "outage_a80_vs_a77": {
+    "n_ids_a80": 6,
+    "n_ids_a77": 9,
+    "n_ids_only_a80": 1,
+    "n_ids_only_a77": 4,
+    "n_ids_both": 5,
+    "ids_only_a80_sample": [
+      "46WPU0000000023X"
+    ],
+    "ids_only_a77_sample": [
+      "46WPU0000000016U",
+      "46WPU0000000017S",
+      "46WPU0000000062N",
+      "46WPU0000000065H"
+    ],
+    "unavail_mw_correlation_a80_vs_a77": 0.14231869738097233,
+    "n_common_units": 5,
+    "n_a80_rows_dropped_for_time_overlap_with_a77": 28,
+    "decision": "union of A77 and A80, EXCEPT an A80 row is dropped when it genuinely time-overlaps an A77 row for the same production_resource_id (A77 wins that overlap) -- see _drop_a80_overlapping_a77 docstring for why a unit-level exclusion was tried first and rejected"
+  },
+  "outage_merge": {
+    "n_rows_a80_prepared": 365,
+    "n_rows_a77_prepared": 495,
+    "n_rows_a80_kept_after_overlap_drop": 337,
+    "n_rows_merged": 832,
+    "n_rows_nuclear_in_merged": 355,
+    "max_unavail_mw": 4884.0,
+    "max_unavail_nuclear_mw": 4554.0,
+    "n_empty_chunks_a80": 0,
+    "n_error_chunks_a80": 0,
+    "n_empty_chunks_a77": 0,
+    "n_error_chunks_a77": 0
+  },
+  "installed_registry": {
+    "min_mw_threshold": 100.0,
+    "by_query_year": {
+      "2021": {
+        "n_units_kept": 20,
+        "n_units_dropped": 1,
+        "total_installed_mw": 10441.0
+      },
+      "2022": {
+        "n_units_kept": 20,
+        "n_units_dropped": 2,
+        "total_installed_mw": 9676.0
+      },
+      "2023": {
+        "n_units_kept": 21,
+        "n_units_dropped": 2,
+        "total_installed_mw": 9796.0
+      },
+      "2024": {
+        "n_units_kept": 19,
+        "n_units_dropped": 2,
+        "total_installed_mw": 9330.0
+      },
+      "2025": {
+        "n_units_kept": 20,
+        "n_units_dropped": 2,
+        "total_installed_mw": 9481.0
+      },
+      "2026": {
+        "n_units_kept": 23,
+        "n_units_dropped": 4,
+        "total_installed_mw": 10199.0
+      }
+    },
+    "reconciliation_with_outage_feed": {
+      "n_checked": 832,
+      "n_missing": 1,
+      "missing_sample": [
+        {
+          "production_resource_id": "46WPU0000000015W",
+          "outage_start_year": "2020"
+        }
+      ]
+    }
+  },
+  "transmission_outages": {
+    "se3_se2": {
+      "n_rows": 1,
+      "empty": true,
+      "error": false,
+      "n_distinct_mrid": 1,
+      "max_rows_per_mrid": 1,
+      "n_mrid_with_multiple_rows": 0
+    },
+    "se3_se4": {
+      "n_rows": 792,
+      "empty": false,
+      "error": false,
+      "n_distinct_mrid": 593,
+      "max_rows_per_mrid": 14,
+      "n_mrid_with_multiple_rows": 72
+    },
+    "se3_no1": {
+      "n_rows": 452,
+      "empty": false,
+      "error": false,
+      "n_distinct_mrid": 384,
+      "max_rows_per_mrid": 10,
+      "n_mrid_with_multiple_rows": 29
+    },
+    "se3_fi": {
+      "n_rows": 198,
+      "empty": false,
+      "error": false,
+      "n_distinct_mrid": 146,
+      "max_rows_per_mrid": 8,
+      "n_mrid_with_multiple_rows": 24
+    },
+    "se3_dk1": {
+      "n_rows": 614,
+      "empty": false,
+      "error": false,
+      "n_distinct_mrid": 445,
+      "max_rows_per_mrid": 19,
+      "n_mrid_with_multiple_rows": 55
+    },
+    "se2_se3": {
+      "n_rows": 809,
+      "empty": false,
+      "error": false,
+      "n_distinct_mrid": 631,
+      "max_rows_per_mrid": 13,
+      "n_mrid_with_multiple_rows": 81
+    },
+    "se4_se3": {
+      "n_rows": 137,
+      "empty": false,
+      "error": false,
+      "n_distinct_mrid": 92,
+      "max_rows_per_mrid": 7,
+      "n_mrid_with_multiple_rows": 17
+    },
+    "no1_se3": {
+      "n_rows": 495,
+      "empty": false,
+      "error": false,
+      "n_distinct_mrid": 431,
+      "max_rows_per_mrid": 5,
+      "n_mrid_with_multiple_rows": 35
+    },
+    "fi_se3": {
+      "n_rows": 588,
+      "empty": false,
+      "error": false,
+      "n_distinct_mrid": 421,
+      "max_rows_per_mrid": 47,
+      "n_mrid_with_multiple_rows": 50
+    },
+    "dk1_se3": {
+      "n_rows": 420,
+      "empty": false,
+      "error": false,
+      "n_distinct_mrid": 297,
+      "max_rows_per_mrid": 19,
+      "n_mrid_with_multiple_rows": 42
+    }
+  },
+  "transmission_availability": {
+    "se3_se2": {
+      "excluded_from_table": true,
+      "note": "S1 Finding 9: zero rows for this direction across the whole pull (reverse, se2_se3, has 305) -- not modelled as its own column, per the plan's 9-pair list"
+    },
+    "se3_se4": {
+      "excluded_from_table": false,
+      "n_kept_rows": 578,
+      "nominal_mw_proxy": 6200.0,
+      "nominal_mw_proxy_note": "max avail_qty over this pair's kept A78 rows -- a proxy for normal capacity, not a real nominal-capacity figure",
+      "prefb_ntc_available": false,
+      "prefb_ntc_p99_mw": null
+    },
+    "se3_no1": {
+      "excluded_from_table": false,
+      "n_kept_rows": 311,
+      "nominal_mw_proxy": 2095.0,
+      "nominal_mw_proxy_note": "max avail_qty over this pair's kept A78 rows -- a proxy for normal capacity, not a real nominal-capacity figure",
+      "prefb_ntc_available": false,
+      "prefb_ntc_p99_mw": null
+    },
+    "se3_fi": {
+      "excluded_from_table": false,
+      "n_kept_rows": 165,
+      "nominal_mw_proxy": 1200.0,
+      "nominal_mw_proxy_note": "max avail_qty over this pair's kept A78 rows -- a proxy for normal capacity, not a real nominal-capacity figure",
+      "prefb_ntc_available": false,
+      "prefb_ntc_p99_mw": null
+    },
+    "se3_dk1": {
+      "excluded_from_table": false,
+      "n_kept_rows": 472,
+      "nominal_mw_proxy": 715.0,
+      "nominal_mw_proxy_note": "max avail_qty over this pair's kept A78 rows -- a proxy for normal capacity, not a real nominal-capacity figure",
+      "prefb_ntc_available": false,
+      "prefb_ntc_p99_mw": null
+    },
+    "se2_se3": {
+      "excluded_from_table": false,
+      "n_kept_rows": 570,
+      "nominal_mw_proxy": 7300.0,
+      "nominal_mw_proxy_note": "max avail_qty over this pair's kept A78 rows -- a proxy for normal capacity, not a real nominal-capacity figure",
+      "prefb_ntc_available": false,
+      "prefb_ntc_p99_mw": null
+    },
+    "se4_se3": {
+      "excluded_from_table": false,
+      "n_kept_rows": 121,
+      "nominal_mw_proxy": 2800.0,
+      "nominal_mw_proxy_note": "max avail_qty over this pair's kept A78 rows -- a proxy for normal capacity, not a real nominal-capacity figure",
+      "prefb_ntc_available": false,
+      "prefb_ntc_p99_mw": null
+    },
+    "no1_se3": {
+      "excluded_from_table": false,
+      "n_kept_rows": 357,
+      "nominal_mw_proxy": 2145.0,
+      "nominal_mw_proxy_note": "max avail_qty over this pair's kept A78 rows -- a proxy for normal capacity, not a real nominal-capacity figure",
+      "prefb_ntc_available": false,
+      "prefb_ntc_p99_mw": null
+    },
+    "fi_se3": {
+      "excluded_from_table": false,
+      "n_kept_rows": 469,
+      "nominal_mw_proxy": 1200.0,
+      "nominal_mw_proxy_note": "max avail_qty over this pair's kept A78 rows -- a proxy for normal capacity, not a real nominal-capacity figure",
+      "prefb_ntc_available": false,
+      "prefb_ntc_p99_mw": null
+    },
+    "dk1_se3": {
+      "excluded_from_table": false,
+      "n_kept_rows": 346,
+      "nominal_mw_proxy": 715.0,
+      "nominal_mw_proxy_note": "max avail_qty over this pair's kept A78 rows -- a proxy for normal capacity, not a real nominal-capacity figure",
+      "prefb_ntc_available": false,
+      "prefb_ntc_p99_mw": null
+    }
+  },
+  "ntc_validation": {
+    "se3_no1": {
+      "prefb_ntc_available": false,
+      "note": "no pre-flow-based NTC data (notes/01b Finding 1)"
+    },
+    "se3_fi": {
+      "prefb_ntc_available": false,
+      "note": "no pre-flow-based NTC data (notes/01b Finding 1)"
+    },
+    "se3_dk1": {
+      "prefb_ntc_available": false,
+      "note": "no pre-flow-based NTC data (notes/01b Finding 1)"
+    },
+    "no1_se3": {
+      "prefb_ntc_available": false,
+      "note": "no pre-flow-based NTC data (notes/01b Finding 1)"
+    },
+    "fi_se3": {
+      "prefb_ntc_available": false,
+      "note": "no pre-flow-based NTC data (notes/01b Finding 1)"
+    },
+    "dk1_se3": {
+      "prefb_ntc_available": false,
+      "note": "no pre-flow-based NTC data (notes/01b Finding 1)"
+    }
+  },
+  "transmission_cross_check": {
+    "found": true,
+    "pair": "fi_se3",
+    "mrid": "Js0C78G3BJcNPCeDyq2wHg",
+    "businesstype": "Unplanned outage",
+    "start": "2026-07-01 22:00:00+00:00",
+    "end": "2026-09-01 22:00:00+00:00",
+    "duration_hours": 1488.0,
+    "avail_qty_mw": 200.0,
+    "nominal_mw_proxy": 1200.0,
+    "expected_unavail_mw": 1000.0,
+    "n_hours_in_window": 1488,
+    "n_hours_matching_exactly": 910,
+    "all_hours_match": false,
+    "note": "if not all match, another overlapping A78 row is more restrictive somewhere in this window (min-aggregation, not a bug)"
+  },
+  "hydro_reservoir_columns_found": [
+    "0"
+  ],
+  "hydro_reservoir": {
+    "source_column_used": "0",
+    "n_raw_points": 295,
+    "note": "weekly-sourced, forward-filled to hourly",
+    "n_empty_chunks": 0,
+    "n_error_chunks": 0
+  },
+  "coverage_by_column": {
+    "price_eur_mwh": {
+      "n_expected": 49919,
+      "n_present": 49915,
+      "n_nan": 4,
+      "longest_nan_run_hours": 1,
+      "longest_nan_run_start": "2021-12-31 00:00:00+01:00",
+      "longest_nan_run_end": "2021-12-31 00:00:00+01:00",
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "load_forecast_mw": {
+      "n_expected": 49919,
+      "n_present": 49895,
+      "n_nan": 24,
+      "longest_nan_run_hours": 24,
+      "longest_nan_run_start": "2025-12-04 00:00:00+01:00",
+      "longest_nan_run_end": "2025-12-04 23:00:00+01:00",
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "solar_forecast_mw": {
+      "n_expected": 49919,
+      "n_present": 49727,
+      "n_nan": 192,
+      "longest_nan_run_hours": 48,
+      "longest_nan_run_start": "2025-11-01 00:00:00+01:00",
+      "longest_nan_run_end": "2025-11-02 23:00:00+01:00",
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "wind_onshore_forecast_mw": {
+      "n_expected": 49919,
+      "n_present": 49727,
+      "n_nan": 192,
+      "longest_nan_run_hours": 48,
+      "longest_nan_run_start": "2025-11-01 00:00:00+01:00",
+      "longest_nan_run_end": "2025-11-02 23:00:00+01:00",
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "installed_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_nuclear_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "avail_gen_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_dk1_se3_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_fi_se3_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_no1_se3_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_se2_se3_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_se3_dk1_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_se3_fi_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_se3_no1_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_se3_se4_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_se4_se3_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_import_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "unavail_tx_export_mw": {
+      "n_expected": 49919,
+      "n_present": 49919,
+      "n_nan": 0,
+      "longest_nan_run_hours": 0,
+      "longest_nan_run_start": null,
+      "longest_nan_run_end": null,
+      "first_valid": "2021-01-01 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    },
+    "hydro_reservoir_fill": {
+      "n_expected": 49919,
+      "n_present": 49847,
+      "n_nan": 72,
+      "longest_nan_run_hours": 72,
+      "longest_nan_run_start": "2021-01-01 00:00:00+01:00",
+      "longest_nan_run_end": "2021-01-03 23:00:00+01:00",
+      "first_valid": "2021-01-04 00:00:00+01:00",
+      "last_valid": "2026-09-11 23:00:00+02:00"
+    }
+  },
+  "duplicate_timestamps_in_final_index": 0,
+  "sanity_checks": {
+    "n_negative_price_hours": 1532,
+    "load_forecast_in_5000_20000_mw": true,
+    "load_forecast_out_of_range_count": 0,
+    "wind_onshore_min": 19.3,
+    "wind_onshore_max": 3850.17775,
+    "wind_onshore_negative_count": 0,
+    "installed_mw_n_nan": 0,
+    "installed_mw_fully_populated_full_window": true,
+    "avail_gen_mw_negative_count": 0,
+    "avail_gen_mw_min": 5257.0,
+    "avail_gen_mw_min_timestamp": "2023-05-31 04:00:00+02:00",
+    "avail_gen_mw_no_negative_full_window": true,
+    "oskarshamn3_window_min_unavail_nuclear_mw": 1400.0,
+    "oskarshamn3_cross_check_pass": true
+  }
+}

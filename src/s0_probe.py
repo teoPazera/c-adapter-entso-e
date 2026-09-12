@@ -13,17 +13,16 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import time
 import traceback
-from pathlib import Path
 
 import pandas as pd
 import requests
 from dotenv import load_dotenv
 from entsoe import EntsoePandasClient
 
-ROOT = Path(__file__).resolve().parents[1]
+from common import ROOT, _infer_freq, _redact_fields, _stringify_keys
+
 DATA_DIR = ROOT / "data" / "s0"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -45,35 +44,6 @@ def _day_bounds(day: str) -> tuple[pd.Timestamp, pd.Timestamp]:
     start = pd.Timestamp(day, tz=TZ)
     end = start + pd.Timedelta(days=1)
     return start, end
-
-
-def _infer_freq(index: pd.Index) -> str:
-    if len(index) < 2:
-        return "n/a (fewer than 2 points)"
-    diffs = pd.Series(index).diff().dropna().unique()
-    if len(diffs) == 1:
-        return str(pd.Timedelta(diffs[0]))
-    return f"irregular: {[str(pd.Timedelta(d)) for d in diffs]}"
-
-
-_TOKEN_RE = re.compile(r"(securityToken=)[^&\s]+", re.IGNORECASE)
-
-
-def _redact(text: str) -> str:
-    """entsoe-py embeds the API key in query-string URLs inside its own
-    exception messages; strip it before anything touches a print or a file."""
-    return _TOKEN_RE.sub(r"\1***REDACTED***", text)
-
-
-def _redact_fields(fields: dict) -> dict:
-    return {
-        k: (_redact(v) if isinstance(v, str) else v)
-        for k, v in fields.items()
-    }
-
-
-def _stringify_keys(d: dict) -> dict:
-    return {str(k): v for k, v in d.items()}
 
 
 def _report(name: str, ok: bool, **fields) -> None:
