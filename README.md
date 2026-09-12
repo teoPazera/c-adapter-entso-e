@@ -13,7 +13,7 @@ Working notes, one file per stage: [notes/](notes/).
 S0–S3 complete and gated. S3 = walk-forward LEAR baseline vs. naive,
 recalibrated daily, over 2023-01 (validation) through 2026-09 (test).
 Current numbers (`data/s3/metrics.json`, 730-day window): overall
-`mae_model=16.92` vs. `mae_naive=23.99` (`rmae=0.705`), `n_models=1350`,
+`mae_model=16.92` vs. `mae_naive=23.99` (`rmae=0.705`), `n_models=1169`,
 `max_abs_coef=1.639`. Next stage: S4, the context adapter.
 
 ## Setup
@@ -55,7 +55,7 @@ picks the lower-MAE one) and then test with the chosen window. With the
 cache present it's prediction-only (the fit phase prints
 `0 not yet cached` and finishes in seconds); without it, it refits.
 Expect the test summary to match `data/s3/metrics.json`:
-`n_models=1350`, `max_abs_coef≈1.639`, `n_lars_blowup_hours=12`,
+`n_models=1169`, `max_abs_coef≈1.639`, `n_lars_blowup_hours=12`,
 `mae_model≈16.92`.
 
 `--slice validation` and `--slice test --window {365,730}` also work

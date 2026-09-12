@@ -116,13 +116,17 @@ def _fit_and_save(table: pd.DataFrame, D: pd.Timestamp, window_days: int) -> Non
     model.save(_model_path(window_days, D))
 
 
+def _refit_days(days: list[pd.Timestamp], recalib_every: int) -> list[pd.Timestamp]:
+    return [D for i, D in enumerate(days) if i % recalib_every == 0]
+
+
 def _fit_phase(
     table: pd.DataFrame, days: list[pd.Timestamp], window_days: int, recalib_every: int, n_jobs: int
 ) -> dict[pd.Timestamp, DayModel]:
     """Returns {refit_day: DayModel} for every day where i % recalib_every == 0.
     Days in between reuse the most recent refit day's model (resolved in the
     walk-forward phase, not here)."""
-    refit_days = [D for i, D in enumerate(days) if i % recalib_every == 0]
+    refit_days = _refit_days(days, recalib_every)
     to_fit = [D for D in refit_days if not _model_path(window_days, D).exists()]
     print(f"  [{window_days}d] {len(refit_days)} refit days, {len(to_fit)} not yet cached, n_jobs={n_jobs}")
 
@@ -195,12 +199,28 @@ def run_slice(
     return df
 
 
-def aggregate_model_diagnostics(window_days: int) -> dict:
+def aggregate_model_diagnostics(window_days: int, refit_days: list[pd.Timestamp]) -> dict:
     """Sums each saved DayModel's per-fit diagnostics (ffill/bfill NaN
     counts, degenerate-hour count, LARS numerical-failure count) across
-    every cached model for this window. These were being recorded per
-    model but never rolled up anywhere a reader would actually see them."""
-    paths = sorted((MODELS_DIR / str(window_days)).glob("*.npz"))
+    the refit days belonging to THIS phase/window. These were being
+    recorded per model but never rolled up anywhere a reader would
+    actually see them.
+
+    CORRECTED 2026-09-12: previously globbed every *.npz under
+    data/s3/models/<window_days>/ instead of taking an explicit day
+    list. Validation and test cache models under the same
+    models/<window_days>/ directory, keyed only by calendar date with
+    no phase tag -- so once both phases' models exist on disk (e.g.
+    after unzipping a full cache), an unscoped glob during the
+    validation phase silently included test's models too (and vice
+    versa), inflating n_models/n_lars_blowup_hours/etc. to the
+    combined total rather than this phase's own contribution. Found by
+    A5 fresh-clone verification: a rerun's window_selection.json
+    (n_models=1350 for the 730d window) didn't match the committed one
+    (n_models=1338) even though metrics.json matched exactly -- the
+    committed window_selection.json was a stale snapshot from before
+    the on-disk cache reached its final state."""
+    paths = [_model_path(window_days, D) for D in refit_days]
     totals = {
         "n_models": len(paths),
         "n_ffill_feature_nan": 0,
@@ -273,7 +293,7 @@ def _run_validation(table: pd.DataFrame, n_jobs: int, recalib_every: int) -> Non
         df = run_slice(table, days, window_days, recalib_every=recalib_every, n_jobs=n_jobs)
         df.to_csv(DATA_S3 / f"forecasts_val_{window_days // 365}y.csv", index=False)
         summary = summarize_period(df)
-        summary["model_diagnostics"] = aggregate_model_diagnostics(window_days)
+        summary["model_diagnostics"] = aggregate_model_diagnostics(window_days, _refit_days(days, recalib_every))
         results[window_days] = summary
         print(f"  summary: {json.dumps(summary, default=str)}")
 
@@ -306,7 +326,7 @@ def _run_test(table: pd.DataFrame, window: int | None, n_jobs: int, recalib_ever
     df.to_csv(DATA_S3 / "forecasts_test.csv", index=False)
     tables = build_metrics_tables(df, ROOT / "data" / "s2" / "events.json")
     tables["window_days"] = window_days
-    tables["model_diagnostics"] = aggregate_model_diagnostics(window_days)
+    tables["model_diagnostics"] = aggregate_model_diagnostics(window_days, _refit_days(days, recalib_every))
     print(f"Test overall summary: {json.dumps(tables['overall'], default=str, indent=2)}")
     (DATA_S3 / "metrics.json").write_text(json.dumps(tables, indent=2, default=str), encoding="utf-8")
     print(f"Wrote {DATA_S3 / 'metrics.json'}")

@@ -184,9 +184,9 @@
   "n_events": 18,
   "window_days": 730,
   "model_diagnostics": {
-    "n_models": 1350,
-    "n_ffill_feature_nan": 59180,
-    "n_bfill_feature_nan": 5231,
+    "n_models": 1169,
+    "n_ffill_feature_nan": 51194,
+    "n_bfill_feature_nan": 66,
     "n_degenerate_hours": 0,
     "n_numerical_failure_hours": 0,
     "n_lars_blowup_hours": 12,

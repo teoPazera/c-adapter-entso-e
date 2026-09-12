@@ -524,6 +524,33 @@ Run against the final, corrected test-slice artifacts (`data/s3/forecasts_test.c
    28-day burn-in and away from any Finding-11 date) — matched the library's `summarize_period`
    output exactly (17.503404854522305 both ways for MAE, 14.025985834116419 both ways for CRPS).
 
+## Addendum (2026-09-12, ad hoc, post-gate): Verification point 1's `n_models=1350` claim was wrong
+
+Found while shipping the repo to GitHub and independently re-running `--slice all` against a
+freshly restored model cache (fresh clone + release zip, no dev-machine state carried over).
+`aggregate_model_diagnostics` (`src/s3_backtest.py:197-223` at the time) globbed every `*.npz`
+under `data/s3/models/<window_days>/` instead of taking an explicit day list. Validation and
+test cache models under the same `models/730/` directory, keyed only by calendar date with no
+phase tag — so once both phases' models exist on disk, an unscoped glob during either phase
+silently counts the other phase's models too. Verification point 1 above read the resulting
+`n_models=1350 = 181 + 1,169` as confirmation that "every day has a cached model, none missing";
+it actually just meant both phases' caches were fully populated by the time either diagnostic
+call ran — a true fact, but not the one being tested, and not reproducible in that form (a fresh
+run reproduced `n_models=1350` for the *test* phase but `n_models=1338` was what the
+already-committed `window_selection.json`'s *validation*-730 entry showed, a stale figure from
+an earlier point in development that was never regenerated).
+
+Fixed by scoping `aggregate_model_diagnostics` to an explicit `refit_days` list (the same list
+`_fit_phase` computes), passed by each call site. Re-ran `--slice all`: forecast metrics
+(`mae_model`, `crps_model`, etc.) are byte-identical to before — the bug never touched anything
+that feeds a score, only this diagnostic rollup. Corrected values: validation-730's own
+`n_models=181` (not 1350), `n_lars_blowup_hours=0` (all 12 blowups are test-period days);
+test-730's own `n_models=1169` (not 1350), `n_lars_blowup_hours=12` (unchanged — these already
+belonged to the test phase). The frozen-`f` reload check (4 spot-checked days matching
+`forecasts_test.csv` to float32 precision) and the reproducibility check (2024-06-18 refit
+matching cached coefficients to 2.5e-8) are unaffected — both were re-verified independently
+after this fix, in a fresh clone.
+
 ## Open questions
 
 1. Actual ENTSO-E publication lag for A65 (load forecast) and A69 (wind/solar forecast) relative
