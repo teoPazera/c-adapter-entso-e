@@ -83,3 +83,12 @@ data checked into (or restored into) this repo.
   project follows.
 - [notes/](notes/) — one file per stage, findings with `file:line`
   evidence, gate results.
+
+## S7 oracle-ceiling audit (2026-09-14)
+
+The S4 availability-driver point-forecast experiment has been stopped after a
+mechanical, prevalence, sensitivity, and event-block-bootstrap oracle audit.
+The realised-path oracle has only **0.035 EUR/MWh (0.16%)** broad-sample MAE
+headroom on generation affected hours, and the aggregate transmission-driver
+attachment is reliably harmful. See `notes/05-oracle-ceiling-audit.md`; rerun
+with `.venv/bin/python src/s7_diagnostics.py`.

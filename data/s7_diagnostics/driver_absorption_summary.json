@@ -1,0 +1,16 @@
+{
+  "method": "same-weekday median of up to four preceding non-event weeks; diagnostic normal level only",
+  "n_event_days": 94,
+  "n_affected_hours": 1934,
+  "aggregate": {
+    "median_operational_anomaly_vs_normal_mw": 1237.0,
+    "median_operational_anomaly_vs_persistence_mw": 0.0,
+    "share_correct_signed_vs_normal": 0.8050672182006204,
+    "share_correct_signed_vs_persistence": 0.2792140641158221
+  },
+  "event_day_classification_counts": {
+    "visible_vs_normal": 72,
+    "weak_or_not_visible_vs_normal": 18,
+    "no_valid_affected_hours": 4
+  }
+}

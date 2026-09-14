@@ -1,0 +1,28 @@
+{
+  "interpretation": "descriptive event/day decomposition; co-moving driver columns are not causal attribution",
+  "by_kind": [
+    {
+      "kind": "generation",
+      "n_event_days": 40,
+      "n_affected_scored_hours": 676,
+      "baseline_mae_affected": 19.309457977896226,
+      "oracle_mae_affected": 19.252950792301768,
+      "oracle_minus_baseline_mae_affected": -0.056507185594460704,
+      "mean_baseline_residual_affected": 1.6132729676785718,
+      "mean_oracle_forecast_shift_affected": 0.5887678958017141
+    },
+    {
+      "kind": "transmission",
+      "n_event_days": 54,
+      "n_affected_scored_hours": 1231,
+      "baseline_mae_affected": 18.910743758239875,
+      "oracle_mae_affected": 19.002858454850777,
+      "oracle_minus_baseline_mae_affected": 0.09211469661090482,
+      "mean_baseline_residual_affected": 0.07106710487992202,
+      "mean_oracle_forecast_shift_affected": 0.10170399642046532
+    }
+  ],
+  "event_oracle_better_on_affected_hours": 5,
+  "event_oracle_worse_on_affected_hours": 7,
+  "event_oracle_tied_on_affected_hours": 0
+}

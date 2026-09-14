@@ -1,0 +1,65 @@
+{
+  "n_events": 18,
+  "n_event_days": 94,
+  "n_event_hours": 2256,
+  "n_realised_affected_hours": 1934,
+  "n_nonfinite_actual_price": 49,
+  "stored_vs_recomputed_baseline": {
+    "n_comparable": 2207,
+    "n_abs_diff_gt_1e-5": 0,
+    "max_abs_diff": 1.1368683772161603e-13
+  },
+  "checks": {
+    "baseline_persistence": {
+      "passed": 94,
+      "failed": 0
+    },
+    "oracle_path": {
+      "passed": 94,
+      "failed": 0
+    },
+    "feature_wiring": {
+      "passed": 94,
+      "failed": 0
+    },
+    "event_interval_alignment": {
+      "passed": 2256,
+      "failed": 0
+    },
+    "generation_sign": {
+      "passed": 40,
+      "failed": 0
+    },
+    "transmission_sign": {
+      "passed": 54,
+      "failed": 0
+    },
+    "model_coverage": {
+      "passed": 94,
+      "failed": 65
+    }
+  },
+  "n_failures": 65,
+  "table_load_report": {
+    "nan_before_ffill": {
+      "price_eur_mwh": 4,
+      "load_forecast_mw": 24,
+      "wind_onshore_forecast_mw": 192,
+      "solar_forecast_mw": 192,
+      "avail_gen_mw": 0,
+      "unavail_tx_import_mw": 0,
+      "unavail_tx_export_mw": 0,
+      "hydro_reservoir_fill": 72
+    },
+    "nan_after_ffill": {
+      "price_eur_mwh": 0,
+      "load_forecast_mw": 0,
+      "wind_onshore_forecast_mw": 0,
+      "solar_forecast_mw": 0,
+      "avail_gen_mw": 0,
+      "unavail_tx_import_mw": 0,
+      "unavail_tx_export_mw": 0,
+      "hydro_reservoir_fill": 72
+    }
+  }
+}

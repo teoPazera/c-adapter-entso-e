@@ -1,0 +1,65 @@
+{
+  "method": "frozen-model local finite difference: 100 MW operational worsening of the selected driver path",
+  "sensitivity_delta_mw": 100.0,
+  "predeclared_high_sensitivity_threshold_eur_per_mwh_per_100mw": 0.1,
+  "sensitivity": {
+    "n_hours": 2256,
+    "median_operational_price_change_per_100mw": 0.06575164520435806,
+    "mean_operational_price_change_per_100mw": 0.13515940662112733,
+    "share_correct_price_sign_positive": 0.663563829787234,
+    "share_abs_ge_threshold": 0.4698581560283688
+  },
+  "sensitivity_on_affected_hours": {
+    "n_hours": 1934,
+    "median_operational_price_change_per_100mw": 0.07006941819003742,
+    "share_correct_price_sign_positive": 0.68717683557394,
+    "share_abs_ge_threshold": 0.4736297828335057
+  },
+  "nested_oracle_scores": {
+    "all_scored_event_hours": {
+      "n_obs": 2207,
+      "mae_baseline": 19.785716469357887,
+      "mae_oracle": 19.876260188612804,
+      "oracle_minus_baseline_mae": 0.09054371925491722,
+      "oracle_better_hours": 439,
+      "baseline_better_hours": 589,
+      "ties_hours": 1179
+    },
+    "realised_affected_hours": {
+      "n_obs": 1907,
+      "mae_baseline": 20.31307680511364,
+      "mae_oracle": 20.363480512462242,
+      "oracle_minus_baseline_mae": 0.05040370734860389,
+      "oracle_better_hours": 357,
+      "baseline_better_hours": 499,
+      "ties_hours": 1051
+    },
+    "affected_hours_driver_differs_from_persistence": {
+      "n_obs": 844,
+      "mae_baseline": 22.472444624411423,
+      "mae_oracle": 22.58953906024989,
+      "oracle_minus_baseline_mae": 0.11709443583846735,
+      "oracle_better_hours": 277,
+      "baseline_better_hours": 441,
+      "ties_hours": 126
+    },
+    "affected_high_sensitivity_hours": {
+      "n_obs": 916,
+      "mae_baseline": 23.305545050417603,
+      "mae_oracle": 23.3717975473503,
+      "oracle_minus_baseline_mae": 0.06625249693269808,
+      "oracle_better_hours": 189,
+      "baseline_better_hours": 270,
+      "ties_hours": 457
+    },
+    "affected_driver_differs_and_high_sensitivity": {
+      "n_obs": 428,
+      "mae_baseline": 25.482956351357657,
+      "mae_oracle": 25.62567252868453,
+      "oracle_minus_baseline_mae": 0.14271617732687147,
+      "oracle_better_hours": 151,
+      "baseline_better_hours": 251,
+      "ties_hours": 26
+    }
+  }
+}
