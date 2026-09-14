@@ -13,3 +13,8 @@ dependencies = [
     "requests>=2.34.2",
     "scikit-learn>=1.9.1",
 ]
+
+[project.optional-dependencies]
+viz = [
+    "matplotlib>=3.9",
+]

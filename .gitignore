@@ -5,3 +5,12 @@ __pycache__/
 data/raw/
 data/s3/models/
 data/s3/archive_*/
+# Generated S4-S6 reproducibility artifacts are published as a release asset,
+# not committed individually. Compact summary metrics/plot remain versioned.
+data/s4/llm_cache/
+data/s4/forecasts_s4.csv
+data/s4/run_summary.json
+data/s4/s5_hourly_comparison.csv
+data/s4/s6_random_control_hourly.csv
+data/s4/worked_example_*.csv
+data/s4/worked_example_*.json
