@@ -1,0 +1,27 @@
+{
+  "context": {
+    "n_obs": 2207,
+    "mae": 20.068302254410092,
+    "rmse": 28.166423641294074,
+    "bias": 0.9288298771237723
+  },
+  "no_context": {
+    "n_obs": 2207,
+    "mae": 19.785716469357887,
+    "rmse": 27.847315901545205,
+    "bias": 0.21947747056496092
+  },
+  "oracle": {
+    "n_obs": 2207,
+    "mae": 19.876260188612804,
+    "rmse": 27.890764836002617,
+    "bias": 0.29046583204256615
+  },
+  "paired": {
+    "context_minus_no_context_mae": 0.28258578505220555,
+    "oracle_minus_no_context_mae": 0.09054371925492077,
+    "context_wins_hours": 635,
+    "no_context_wins_hours": 902,
+    "ties_hours": 670
+  }
+}

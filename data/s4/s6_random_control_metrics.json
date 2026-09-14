@@ -1,0 +1,54 @@
+{
+  "n_event_days": 92,
+  "n_hours": 2207,
+  "random_draws_per_event_day": 200,
+  "seed": 20260914,
+  "mae": {
+    "no_context": 19.785716469357887,
+    "llm_context": 20.068302254410092,
+    "oracle": 19.876260188612804,
+    "random_mean": 20.22912387407666
+  },
+  "mae_difference_vs_baseline": {
+    "llm_context": 0.28258578505220555,
+    "oracle": 0.09054371925491722,
+    "random_mean": 0.4434074047187728
+  },
+  "dm_abs_error": {
+    "llm_context_minus_baseline": {
+      "n": 2207,
+      "mean_loss_diff": 0.2825857850522037,
+      "dm_stat": 3.346886378115063,
+      "p_value": 0.0008172470016696168,
+      "lag": 13
+    },
+    "oracle_minus_baseline": {
+      "n": 2207,
+      "mean_loss_diff": 0.09054371925491729,
+      "dm_stat": 1.4647945141209586,
+      "p_value": 0.1429769890479052,
+      "lag": 13
+    },
+    "llm_context_minus_random_mean": {
+      "n": 2207,
+      "mean_loss_diff": -0.16082161966657213,
+      "dm_stat": -1.4087510613282224,
+      "p_value": 0.15890879058978039,
+      "lag": 13
+    }
+  },
+  "event_days": {
+    "llm_better_than_baseline": 31,
+    "oracle_better_than_baseline": 27,
+    "random_mean_better_than_baseline": 41
+  },
+  "sensitivity": {
+    "median_max_abs_llm_forecast_shift": 1.9301969662807466,
+    "median_max_abs_oracle_forecast_shift": 0.6931381745987579,
+    "event_days_oracle_exactly_equals_baseline": 35
+  },
+  "random_single_path": {
+    "median_p_random_single_beats_llm": 0.0,
+    "mean_p_random_single_beats_llm": 0.391304347826087
+  }
+}
